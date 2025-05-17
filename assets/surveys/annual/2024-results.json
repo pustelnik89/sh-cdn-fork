@@ -1,0 +1,396 @@
+{
+  "charts": [
+    {
+      "id": "personal-enterprise",
+      "labels": ["Personal", "Enterprise", "Both"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [3036, 13, 606]
+        }
+      ]
+    },
+    {
+      "id": "unique-users",
+      "labels": ["1 user","2 users","3 users","4 users","5 users","6 users","7 users","8 users","9 users","10 users","11-20 users","21+ users"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [764,933,501,367,378,158,65,83,21,104,179,102]
+        }
+      ]
+    },
+    {
+      "id": "why-self-host",
+      "labels": ["Hobby","Privacy","Education","Flexibility","Cost","Convenience","Business","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [3466,3072,2334,2186,2073,2009,319,81]
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "labels": ["Low-powered device","Consumer hardware","Desktop PC","Custom build","Enterprise hardware","Server cluster","Laptop","Cloud VPS","Mobile device","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [1998,1675,1311,1296,822,539,439,97,91,48]
+        }
+      ]
+    },
+    {
+      "id": "deploy-nas",
+      "labels": ["Yes","No"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [2303,1352]
+        }
+      ]
+    },
+    {
+      "id": "sensitive-data",
+      "labels": ["No","Yes"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [3025,630]
+        }
+      ]
+    },
+    {
+      "id": "operating-system",
+      "labels": ["Linux","Proxmox","Raspberry Pi OS","TrueNAS","Unraid","Windows Desktop","Windows Server","BSD","macOS","ESXi","DiskStation Manager","Open Media Vault","XCP-ng","Home Assistant OS","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [3170,1579,990,529,392,340,231,225,127,112,106,42,20,16,72]
+        }
+      ]
+    },
+    {
+      "id": "backup-strategy",
+      "labels": ["Onsite","Cloud","Offsite","None"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [2895,1925,862,225]
+        }
+      ]
+    },
+    {
+      "id": "backup-cloud",
+      "labels": ["Backblaze","Google Drive","Microsoft OneDrive","Hetzner","iCloud","Dropbox","BorgBase","Mega","Proton Drive","iDrive","pCloud","Storj","Veeam","Cloudflare R2","Box","CrashPlan","Wasabi","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [593,500,309,185,176,108,75,71,49,34,30,26,25,21,20,20,20,232]
+        }
+      ]
+    },
+    {
+      "id": "deploy-containers",
+      "labels": ["Yes","No"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [3501,154]
+        }
+      ]
+    },
+    {
+      "id": "prefer-containers",
+      "labels": ["Yes","No"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [3085,416]
+        }
+      ]
+    },
+    {
+      "id": "orchestration-platform",
+      "labels": ["No","Yes"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [2315,770]
+        }
+      ]
+    },
+    {
+      "id": "container-platform",
+      "labels": ["Docker","LXC","Podman","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [3272,1063,369,94]
+        }
+      ]
+    },
+    {
+      "id": "container-manager",
+      "labels": ["Yes","No"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [1265,1050]
+        }
+      ]
+    },
+    {
+      "id": "container-updates",
+      "labels": ["Manual","Both","Automatic"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [1253,676,386]
+        }
+      ]
+    },
+    {
+      "id": "deploy-firewall",
+      "labels": ["Yes","No"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [1889,1766]
+        }
+      ]
+    },
+    {
+      "id": "remote-access",
+      "labels": ["VPN","Reverse Proxy","Forwarded Ports","Only via LAN","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [2815,2298,840,519,19]
+        }
+      ]
+    },
+    {
+      "id": "web-server",
+      "labels": ["NGINX Proxy Manager","NGINX","Traefik","Cloudflare Tunnels","Caddy","Apache","HAProxy","SWAG","Zoraxy","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [1138,1033,881,705,661,310,181,152,24,57]
+        }
+      ]
+    },
+    {
+      "id": "custom-domain",
+      "labels": ["Yes","No"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [3246,409]
+        }
+      ]
+    },
+    {
+      "id": "domain-registrar",
+      "labels": ["Cloudflare",
+      "Namecheap","Porkbun","DuckDNS","OVH","GoDaddy","Google Domains","Gandi","IONOS","Hetzner","Netcup","Strato","Hover","INWX","NameSilo","DreamHost","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [1109,677,471,192,178,130,119,93,74,73,65,52,45,42,37,26,650]
+        }
+      ]
+    },
+    {
+      "id": "email-server",
+      "labels": ["No","Yes"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [3062,593]
+        }
+      ]
+    },
+    {
+      "id": "email-components",
+      "labels": ["Sending",
+      "Receiving","Client"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [534,489,355]
+        }
+      ]
+    },
+    {
+      "id": "media-server",
+      "labels": ["Jellyfin","Plex","AudioBookshelf","Navidrome","Kodi","Emby","Subsonic","PeerTube","Lightweight Music Server","Ampache","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [1969,1281,672,497,278,133,98,76,28,21,218]
+        }
+      ]
+    },
+    {
+      "id": "file-sync",
+      "labels": ["Nextcloud","Syncthing","FileBrowser","Seafile","Synology","ownCloud","FileStash","SFTPGo","FileRun","Resilio","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [1309,1077,492,118,102,83,28,21,20,20,193]
+        }
+      ]
+    },
+    {
+      "id": "documentation-notes",
+      "labels": ["Obsidian","BookStack","Nextcloud Notes","Joplin","Wiki.js","Trilium","Memos","DokuWiki","Logseq","Outline","Docmost","HedgeDoc","SilverBullet","AFFiNE","StandardNotes","AppFlowy","AnyType","Docusaurus","TiddlyWiki","MediaWiki","MkDocs","SiYuan","FlatNotes","XWiki","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [686,407,381,301,211,186,179,127,114,113,76,70,63,54,38,34,32,32,30,22,20,19,16,11,124]
+        }
+      ]
+    },
+    {
+      "id": "smart-home",
+      "labels": ["Yes","No"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [2184,1471]
+        }
+      ]
+    },
+    {
+      "id": "home-protocols",
+      "labels": ["WiFi","Zigbee","MQTT","Bluetooth","ESP","Z-Wave","Matter","NFC","Thread","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [1906,1407,1194,831,714,440,362,271,227,22]
+        }
+      ]
+    },
+    {
+      "id": "host-activitypub",
+      "labels": ["No","Yes"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [1970,214]
+        }
+      ]
+    },
+    {
+      "id": "activitypub-platform",
+      "labels": ["Mastodon","PeerTube","Lemmy","GoToSocial","Pixelfed","Akkoma","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [116,39,35,26,20,8,48]
+        }
+      ]
+    },
+    {
+      "id": "deploy-game",
+      "labels": ["No","Yes"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [2471,1184]
+        }
+      ]
+    },
+    {
+      "id": "game-server",
+      "labels": ["Minecraft","Satisfactory","Valheim","Factorio","Palworld","Terraria","7 Days to Die","Project Zomboid","ARK","Counter-Strike","Arma","V Rising","Minetest","Enshrouded","Assetto Corsa","Space Engineers","Foundry VTT","Vintage Story","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [911,157,122,117,78,78,40,39,32,32,32,31,23,20,18,18,13,10,287]
+        }
+      ]
+    },
+    {
+      "id": "deploy-database",
+      "labels": ["Docker - Individual","Docker - Shared","Bare Metal - Shared","Bare Metal - Individual"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [2587,553,277,238]
+        }
+      ]
+    },
+    {
+      "id": "favorite-app",
+      "labels": ["Jellyfin","Home Assistant","Plex","Immich","Vaultwarden","Nextcloud","*arr Stack","Paperless-ngx","AudioBookshelf","Gitea","Pi-Hole","Navidrome","Proxmox","Miniflux","Syncthing","FreshRSS","Homepage","Forgejo","Actual Budget","Emby","AdGuard Home","Mealie","Authentik","GitLab","Matrix","Firefly III","n8n","Uptime Kuma","Frigate NVR","Tiny Tiny RSS","Trilum"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [493,461,323,273,213,169,111,93,86,53,44,36,36,35,35,34,34,32,28,25,23,23,19,18,18,17,16,16,15,15,15]
+        }
+      ]
+    },
+    {
+      "id": "age-range",
+      "labels": ["10-19 years-old","20-29 years-old","30-39 years-old","40-49 years-old","50-59 years-old","60-69 years-old"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [117,1093,1328,676,223,32,2]
+        }
+      ]
+    },
+    {
+      "id": "gender",
+      "labels": ["Man","Woman","Non-Binary","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [3305,82,62,7]
+        }
+      ]
+    },
+    {
+      "id": "employment-field",
+      "labels": ["Yes","No"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [2780,620]
+        }
+      ]
+    },
+    {
+      "id": "mobile-os",
+      "labels": ["Android","iOS","GrapheneOS","Other"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [2394,1129,25,24]
+        }
+      ]
+    },
+    {
+      "id": "donate-project",
+      "labels": ["No","Yes"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [2141,1426]
+        }
+      ]
+    },
+    {
+      "id": "education-level",
+      "labels": ["Bachelor\"s Degree","Master\"s Degree","Some college, no degree","HS Diploma / GED","Associate\"s Degree","Doctorate","No formal schooling","VoTech Program"],
+      "datasets": [
+        {
+          "label": "Number of Responses",
+          "data": [1294,718,527,388,180,107,60,44]
+        }
+      ]
+    }
+  ]
+}
