@@ -2,6 +2,7 @@
   "charts": [
     {
       "id": "personal-enterprise",
+      "title": "Do you self-host for personal or enterprise purposes?",
       "labels": ["Personal", "Enterprise", "Both"],
       "datasets": [
         {
@@ -12,6 +13,7 @@
     },
     {
       "id": "unique-users",
+      "title": "Approximately how many unique users are registered across your applications?",
       "labels": ["1 user","2 users","3 users","4 users","5 users","6 users","7 users","8 users","9 users","10 users","11-20 users","21+ users"],
       "datasets": [
         {
@@ -22,6 +24,7 @@
     },
     {
       "id": "why-self-host",
+      "title": "Why do you self-host?",
       "labels": ["Hobby","Privacy","Education","Flexibility","Cost","Convenience","Business","Other"],
       "datasets": [
         {
@@ -32,6 +35,7 @@
     },
     {
       "id": "hardware",
+      "title": "Select the hardware option(s) used to deploy your self-hosted software.",
       "labels": ["Low-powered device","Consumer hardware","Desktop PC","Custom build","Enterprise hardware","Server cluster","Laptop","Cloud VPS","Mobile device","Other"],
       "datasets": [
         {
@@ -42,6 +46,7 @@
     },
     {
       "id": "deploy-nas",
+      "title": "Do you deploy a network-attached storage device?",
       "labels": ["Yes","No"],
       "datasets": [
         {
@@ -52,6 +57,7 @@
     },
     {
       "id": "sensitive-data",
+      "title": "Do you avoid self-hosting sensitive or important data?",
       "labels": ["No","Yes"],
       "datasets": [
         {
@@ -62,6 +68,7 @@
     },
     {
       "id": "operating-system",
+      "title": "Which operating system(s) are installed on your server(s)?",
       "labels": ["Linux","Proxmox","Raspberry Pi OS","TrueNAS","Unraid","Windows Desktop","Windows Server","BSD","macOS","ESXi","DiskStation Manager","Open Media Vault","XCP-ng","Home Assistant OS","Other"],
       "datasets": [
         {
@@ -72,6 +79,7 @@
     },
     {
       "id": "backup-strategy",
+      "title": "Which backup strategies have you deployed for your self-hosted data?",
       "labels": ["Onsite","Cloud","Offsite","None"],
       "datasets": [
         {
@@ -82,6 +90,7 @@
     },
     {
       "id": "backup-cloud",
+      "title": "Which cloud storage service(s) are you subscribed to for backups?",
       "labels": ["Backblaze","Google Drive","Microsoft OneDrive","Hetzner","iCloud","Dropbox","BorgBase","Mega","Proton Drive","iDrive","pCloud","Storj","Veeam","Cloudflare R2","Box","CrashPlan","Wasabi","Other"],
       "datasets": [
         {
@@ -92,6 +101,7 @@
     },
     {
       "id": "deploy-containers",
+      "title": "Do you use containers to deploy self-hosted software?",
       "labels": ["Yes","No"],
       "datasets": [
         {
@@ -102,6 +112,7 @@
     },
     {
       "id": "prefer-containers",
+      "title": "Do you prefer container installations to bare metal?",
       "labels": ["Yes","No"],
       "datasets": [
         {
@@ -112,6 +123,7 @@
     },
     {
       "id": "orchestration-platform",
+      "title": "Do you use an orchestration platform to deploy containers?",
       "labels": ["No","Yes"],
       "datasets": [
         {
@@ -122,6 +134,7 @@
     },
     {
       "id": "container-platform",
+      "title": "Which container platform(s) do you use for deployment?",
       "labels": ["Docker","LXC","Podman","Other"],
       "datasets": [
         {
@@ -132,6 +145,7 @@
     },
     {
       "id": "container-manager",
+      "title": "Do you deploy management software to administer your containers?",
       "labels": ["Yes","No"],
       "datasets": [
         {
@@ -142,6 +156,7 @@
     },
     {
       "id": "container-updates",
+      "title": "How do you manage container updates?",
       "labels": ["Manual","Both","Automatic"],
       "datasets": [
         {
@@ -152,6 +167,7 @@
     },
     {
       "id": "deploy-firewall",
+      "title": "Do you deploy a firewall aside from the router provided by your ISP?",
       "labels": ["Yes","No"],
       "datasets": [
         {
@@ -162,6 +178,7 @@
     },
     {
       "id": "remote-access",
+      "title": "How do you access your self-hosted software remotely?",
       "labels": ["VPN","Reverse Proxy","Forwarded Ports","Only via LAN","Other"],
       "datasets": [
         {
@@ -172,6 +189,7 @@
     },
     {
       "id": "web-server",
+      "title": "Which web server(s) do you deploy for proxied services?",
       "labels": ["NGINX Proxy Manager","NGINX","Traefik","Cloudflare Tunnels","Caddy","Apache","HAProxy","SWAG","Zoraxy","Other"],
       "datasets": [
         {
@@ -182,6 +200,7 @@
     },
     {
       "id": "custom-domain",
+      "title": "Do you utilize a custom domain for your self-hosted applications?",
       "labels": ["Yes","No"],
       "datasets": [
         {
@@ -192,6 +211,7 @@
     },
     {
       "id": "domain-registrar",
+      "title": "Which registrar(s) do you purchase or lease your custom domains from?",
       "labels": ["Cloudflare",
       "Namecheap","Porkbun","DuckDNS","OVH","GoDaddy","Google Domains","Gandi","IONOS","Hetzner","Netcup","Strato","Hover","INWX","NameSilo","DreamHost","Other"],
       "datasets": [
@@ -203,6 +223,7 @@
     },
     {
       "id": "email-server",
+      "title": "Are you self-hosting any components of an e-mail server?",
       "labels": ["No","Yes"],
       "datasets": [
         {
@@ -213,6 +234,7 @@
     },
     {
       "id": "email-components",
+      "title": "Which e-mail server components are you self-hosting?",
       "labels": ["Sending",
       "Receiving","Client"],
       "datasets": [
@@ -224,6 +246,7 @@
     },
     {
       "id": "media-server",
+      "title": "Which of the platforms below do you deploy to stream media content?",
       "labels": ["Jellyfin","Plex","AudioBookshelf","Navidrome","Kodi","Emby","Subsonic","PeerTube","Lightweight Music Server","Ampache","Other"],
       "datasets": [
         {
@@ -234,6 +257,7 @@
     },
     {
       "id": "file-sync",
+      "title": "Which of the platforms below do you deploy for remote file storage, access, or syncing?",
       "labels": ["Nextcloud","Syncthing","FileBrowser","Seafile","Synology","ownCloud","FileStash","SFTPGo","FileRun","Resilio","Other"],
       "datasets": [
         {
@@ -244,6 +268,7 @@
     },
     {
       "id": "documentation-notes",
+      "title": "Which of the platforms below do you deploy for documentation or note-taking?",
       "labels": ["Obsidian","BookStack","Nextcloud Notes","Joplin","Wiki.js","Trilium","Memos","DokuWiki","Logseq","Outline","Docmost","HedgeDoc","SilverBullet","AFFiNE","StandardNotes","AppFlowy","AnyType","Docusaurus","TiddlyWiki","MediaWiki","MkDocs","SiYuan","FlatNotes","XWiki","Other"],
       "datasets": [
         {
@@ -254,6 +279,7 @@
     },
     {
       "id": "smart-home",
+      "title": "Do you deploy any self-hosted software for smart home or home automation purposes?",
       "labels": ["Yes","No"],
       "datasets": [
         {
@@ -264,6 +290,7 @@
     },
     {
       "id": "home-protocols",
+      "title": "Which smart home communication standards and protocols are you utilizing in your self-hosted ecosystem?",
       "labels": ["WiFi","Zigbee","MQTT","Bluetooth","ESP","Z-Wave","Matter","NFC","Thread","Other"],
       "datasets": [
         {
@@ -274,6 +301,7 @@
     },
     {
       "id": "host-activitypub",
+      "title": "Do you deploy any self-hosted ActivityPub platforms?",
       "labels": ["No","Yes"],
       "datasets": [
         {
@@ -284,6 +312,7 @@
     },
     {
       "id": "activitypub-platform",
+      "title": "Which ActivityPub platform(s) do you deploy?",
       "labels": ["Mastodon","PeerTube","Lemmy","GoToSocial","Pixelfed","Akkoma","Other"],
       "datasets": [
         {
@@ -294,6 +323,7 @@
     },
     {
       "id": "deploy-game",
+      "title": "Are you self-hosting any game servers?",
       "labels": ["No","Yes"],
       "datasets": [
         {
@@ -304,6 +334,7 @@
     },
     {
       "id": "game-server",
+      "title": "List the games you're deploying a game server for.",
       "labels": ["Minecraft","Satisfactory","Valheim","Factorio","Palworld","Terraria","7 Days to Die","Project Zomboid","ARK","Counter-Strike","Arma","V Rising","Minetest","Enshrouded","Assetto Corsa","Space Engineers","Foundry VTT","Vintage Story","Other"],
       "datasets": [
         {
@@ -314,6 +345,7 @@
     },
     {
       "id": "deploy-database",
+      "title": "How do you deploy databases for self-hosted applications?",
       "labels": ["Docker - Individual","Docker - Shared","Bare Metal - Shared","Bare Metal - Individual"],
       "datasets": [
         {
@@ -324,6 +356,7 @@
     },
     {
       "id": "favorite-app",
+      "title": "What is your favorite self-hosted application?",
       "labels": ["Jellyfin","Home Assistant","Plex","Immich","Vaultwarden","Nextcloud","*arr Stack","Paperless-ngx","AudioBookshelf","Gitea","Pi-Hole","Navidrome","Proxmox","Miniflux","Syncthing","FreshRSS","Homepage","Forgejo","Actual Budget","Emby","AdGuard Home","Mealie","Authentik","GitLab","Matrix","Firefly III","n8n","Uptime Kuma","Frigate NVR","Tiny Tiny RSS","Trilum"],
       "datasets": [
         {
@@ -334,6 +367,7 @@
     },
     {
       "id": "age-range",
+      "title": "What is your age range?",
       "labels": ["10-19 years-old","20-29 years-old","30-39 years-old","40-49 years-old","50-59 years-old","60-69 years-old"],
       "datasets": [
         {
@@ -344,6 +378,7 @@
     },
     {
       "id": "gender",
+      "title": "What is your gender?",
       "labels": ["Man","Woman","Non-Binary","Other"],
       "datasets": [
         {
@@ -354,6 +389,7 @@
     },
     {
       "id": "employment-field",
+      "title": "If employed, do you work in a technical field?",
       "labels": ["Yes","No"],
       "datasets": [
         {
@@ -364,6 +400,7 @@
     },
     {
       "id": "mobile-os",
+      "title": "What is your primary mobile device's operating system?",
       "labels": ["Android","iOS","GrapheneOS","Other"],
       "datasets": [
         {
@@ -374,6 +411,7 @@
     },
     {
       "id": "donate-project",
+      "title": "Have you donated to a self-hosted project in the last year?",
       "labels": ["No","Yes"],
       "datasets": [
         {
@@ -384,6 +422,7 @@
     },
     {
       "id": "education-level",
+      "title": "What is the highest level of education you have completed?",
       "labels": ["Bachelor\"s Degree","Master\"s Degree","Some college, no degree","HS Diploma / GED","Associate\"s Degree","Doctorate","No formal schooling","VoTech Program"],
       "datasets": [
         {
