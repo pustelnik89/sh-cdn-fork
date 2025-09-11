@@ -22,11 +22,13 @@ jobs:
           # sort by name, which works here since names = dates
           LATEST=$(ls -1 *.json | sort | tail -1)
           echo "latest=$LATEST" >> $GITHUB_ENV
-
+          
       - name: Copy to latest.json
         run: |
           cd assets/newsletter/activity/2025
-          cp ${{ env.latest }} latest.json
+          if [ "${{ env.latest }}" != "latest.json" ]; then
+            cp "${{ env.latest }}" latest.json
+          fi
 
       - name: Commit and push
         run: |
