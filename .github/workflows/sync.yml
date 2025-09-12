@@ -26,7 +26,10 @@ jobs:
         run: |
           git remote add upstream https://github.com/selfhst/cdn.git
           git fetch upstream
-
+      - name: Set up will resolve the "empty ident name" error. Git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: Sync with upstream/main
         run: |
           git fetch upstream main
