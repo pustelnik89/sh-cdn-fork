@@ -34,7 +34,7 @@ jobs:
         run: |
           git fetch upstream main
           git checkout -B main origin/main
-          git merge upstream/main
+          git merge -X theirs upstream/main
           git pull --rebase origin main
           git push origin main
 
