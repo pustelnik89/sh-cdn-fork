@@ -41,13 +41,12 @@ jobs:
 
             # Build human-readable HTML from JSON
             details=$(jq -r '
-              map("<div style=\"margin-bottom:1em;\"><b>" + (.["Project / Publisher"] // "Unknown") + "</b>"
+              .[] | "<div style=\"margin-bottom:1em;\"><b>" + (.["Project / Publisher"] // "Unknown") + "</b>"
                 + " (" + (.Type // "Unknown") + ")<br/>"
                 + (if .Version then "Version: " + .Version + "<br/>" else "" end)
                 + "<a href=\"" + (.Link // "#") + "\">" + (.Link // "") + "</a><br/>"
                 + (.Description // "") + "</div>"
-              ) | join("\n")
-            ' "$f")
+            ' "$f" | paste -sd "\n" -)
 
             echo "  <item>" >> $OUTPUT
             echo "    <title>$fname</title>" >> $OUTPUT
