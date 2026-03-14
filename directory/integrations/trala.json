@@ -101,20 +101,6 @@
         ]
     },
     {
-        "reference": "syncthing",
-        "name": "Syncthing",
-        "tags": [
-            "File Transfer and Sync"
-        ]
-    },
-    {
-        "reference": "ansible",
-        "name": "Ansible",
-        "tags": [
-            "Automation"
-        ]
-    },
-    {
         "reference": "channels-dvr",
         "name": "Channels DVR",
         "tags": [
@@ -127,6 +113,20 @@
         "name": "Plex",
         "tags": [
             "Media Streaming"
+        ]
+    },
+    {
+        "reference": "syncthing",
+        "name": "Syncthing",
+        "tags": [
+            "File Transfer and Sync"
+        ]
+    },
+    {
+        "reference": "ansible",
+        "name": "Ansible",
+        "tags": [
+            "Automation"
         ]
     },
     {
@@ -184,20 +184,20 @@
         ]
     },
     {
-        "reference": "open-webui",
-        "name": "Open WebUI",
-        "tags": [
-            "Artificial Intelligence",
-            "Front End"
-        ]
-    },
-    {
         "reference": "ghost",
         "name": "Ghost",
         "tags": [
             "Blog",
             "Content Management",
             "Newsletters"
+        ]
+    },
+    {
+        "reference": "open-webui",
+        "name": "Open WebUI",
+        "tags": [
+            "Artificial Intelligence",
+            "Front End"
         ]
     },
     {
@@ -253,20 +253,20 @@
         ]
     },
     {
+        "reference": "glances",
+        "name": "Glances",
+        "tags": [
+            "Monitoring",
+            "Server Management"
+        ]
+    },
+    {
         "reference": "odoo",
         "name": "Odoo",
         "tags": [
             "Accounting",
             "Customer Engagement",
             "Customer Relationship Management"
-        ]
-    },
-    {
-        "reference": "glances",
-        "name": "Glances",
-        "tags": [
-            "Monitoring",
-            "Server Management"
         ]
     },
     {
@@ -292,19 +292,19 @@
         ]
     },
     {
-        "reference": "directus",
-        "name": "Directus",
-        "tags": [
-            "Content Management",
-            "Database"
-        ]
-    },
-    {
         "reference": "shinobi",
         "name": "Shinobi",
         "tags": [
             "NVR",
             "Video Surveillance"
+        ]
+    },
+    {
+        "reference": "directus",
+        "name": "Directus",
+        "tags": [
+            "Content Management",
+            "Database"
         ]
     },
     {
@@ -353,13 +353,6 @@
         ]
     },
     {
-        "reference": "immich",
-        "name": "Immich",
-        "tags": [
-            "Photos"
-        ]
-    },
-    {
         "reference": "keycloak",
         "name": "Keycloak",
         "tags": [
@@ -372,6 +365,13 @@
         "name": "Crafty Controller",
         "tags": [
             "Gaming"
+        ]
+    },
+    {
+        "reference": "immich",
+        "name": "Immich",
+        "tags": [
+            "Photos"
         ]
     },
     {
@@ -397,6 +397,13 @@
         ]
     },
     {
+        "reference": "bigbluebutton",
+        "name": "BigBlueButton",
+        "tags": [
+            "Video Conferencing"
+        ]
+    },
+    {
         "reference": "nocodb",
         "name": "NocoDB",
         "tags": [
@@ -414,13 +421,6 @@
         ]
     },
     {
-        "reference": "bigbluebutton",
-        "name": "BigBlueButton",
-        "tags": [
-            "Video Conferencing"
-        ]
-    },
-    {
         "reference": "mastodon",
         "name": "Mastodon",
         "tags": [
@@ -429,18 +429,18 @@
         ]
     },
     {
+        "reference": "graylog",
+        "name": "Graylog",
+        "tags": [
+            "Logs"
+        ]
+    },
+    {
         "reference": "gitea",
         "name": "Gitea",
         "tags": [
             "Development",
             "Git"
-        ]
-    },
-    {
-        "reference": "graylog",
-        "name": "Graylog",
-        "tags": [
-            "Logs"
         ]
     },
     {
@@ -473,18 +473,18 @@
         ]
     },
     {
-        "reference": "joplin",
-        "name": "Joplin",
-        "tags": [
-            "Note-Taking"
-        ]
-    },
-    {
         "reference": "asciinema",
         "name": "Asciinema",
         "tags": [
             "Recording",
             "Terminal"
+        ]
+    },
+    {
+        "reference": "joplin",
+        "name": "Joplin",
+        "tags": [
+            "Note-Taking"
         ]
     },
     {
@@ -511,20 +511,20 @@
         ]
     },
     {
+        "reference": "restic",
+        "name": "restic",
+        "tags": [
+            "Backups",
+            "Server Management"
+        ]
+    },
+    {
         "reference": "uptime-kuma",
         "name": "Uptime-Kuma",
         "tags": [
             "Docker",
             "Monitoring",
             "Uptime"
-        ]
-    },
-    {
-        "reference": "restic",
-        "name": "restic",
-        "tags": [
-            "Backups",
-            "Server Management"
         ]
     },
     {
@@ -544,6 +544,13 @@
         ]
     },
     {
+        "reference": "jitsi-meet",
+        "name": "Jitsi Meet",
+        "tags": [
+            "Video Conferencing"
+        ]
+    },
+    {
         "reference": "clickhouse",
         "name": "ClickHouse",
         "tags": [
@@ -553,26 +560,11 @@
         ]
     },
     {
-        "reference": "jitsi-meet",
-        "name": "Jitsi Meet",
-        "tags": [
-            "Video Conferencing"
-        ]
-    },
-    {
         "reference": "mumble",
         "name": "Mumble",
         "tags": [
             "Messaging",
             "Video Conferencing"
-        ]
-    },
-    {
-        "reference": "vaultwarden",
-        "name": "Vaultwarden",
-        "tags": [
-            "2FA",
-            "Password Manager"
         ]
     },
     {
@@ -590,6 +582,22 @@
         ]
     },
     {
+        "reference": "vaultwarden",
+        "name": "Vaultwarden",
+        "tags": [
+            "2FA",
+            "Password Manager"
+        ]
+    },
+    {
+        "reference": "openvpn",
+        "name": "OpenVPN",
+        "tags": [
+            "Remote Access",
+            "VPN"
+        ]
+    },
+    {
         "reference": "meilisearch",
         "name": "Meilisearch",
         "tags": [
@@ -602,14 +610,6 @@
         "tags": [
             "Development",
             "Messaging"
-        ]
-    },
-    {
-        "reference": "openvpn",
-        "name": "OpenVPN",
-        "tags": [
-            "Remote Access",
-            "VPN"
         ]
     },
     {
@@ -674,24 +674,10 @@
         ]
     },
     {
-        "reference": "file-browser",
-        "name": "File Browser",
-        "tags": [
-            "File Management"
-        ]
-    },
-    {
         "reference": "phpmyadmin",
         "name": "phpMyAdmin",
         "tags": [
             "Database"
-        ]
-    },
-    {
-        "reference": "yourls",
-        "name": "YOURLS",
-        "tags": [
-            "URL Shortener"
         ]
     },
     {
@@ -700,6 +686,20 @@
         "tags": [
             "Calendar",
             "Contacts"
+        ]
+    },
+    {
+        "reference": "file-browser",
+        "name": "File Browser",
+        "tags": [
+            "File Management"
+        ]
+    },
+    {
+        "reference": "yourls",
+        "name": "YOURLS",
+        "tags": [
+            "URL Shortener"
         ]
     },
     {
@@ -720,20 +720,20 @@
         ]
     },
     {
+        "reference": "wekan",
+        "name": "WeKan",
+        "tags": [
+            "Kanban",
+            "Tasks and To-Do Lists"
+        ]
+    },
+    {
         "reference": "outline",
         "name": "Outline",
         "tags": [
             "Note-Taking",
             "Wiki",
             "Workspace"
-        ]
-    },
-    {
-        "reference": "wekan",
-        "name": "WeKan",
-        "tags": [
-            "Kanban",
-            "Tasks and To-Do Lists"
         ]
     },
     {
@@ -806,18 +806,18 @@
         ]
     },
     {
+        "reference": "smokeping",
+        "name": "SmokePing",
+        "tags": [
+            "Monitoring"
+        ]
+    },
+    {
         "reference": "wallabag",
         "name": "Wallabag",
         "tags": [
             "Bookmarks",
             "Read Later"
-        ]
-    },
-    {
-        "reference": "smokeping",
-        "name": "SmokePing",
-        "tags": [
-            "Monitoring"
         ]
     },
     {
@@ -833,20 +833,6 @@
         "tags": [
             "Calendar",
             "Contacts"
-        ]
-    },
-    {
-        "reference": "appwrite",
-        "name": "Appwrite",
-        "tags": [
-            "Development"
-        ]
-    },
-    {
-        "reference": "mail-in-a-box",
-        "name": "Mail-in-a-Box",
-        "tags": [
-            "Email"
         ]
     },
     {
@@ -873,19 +859,10 @@
         ]
     },
     {
-        "reference": "nextcloud",
-        "name": "Nextcloud",
+        "reference": "mail-in-a-box",
+        "name": "Mail-in-a-Box",
         "tags": [
-            "Cloud Storage",
-            "File Management",
-            "File Transfer and Sync"
-        ]
-    },
-    {
-        "reference": "nginx-proxy",
-        "name": "nginx-proxy",
-        "tags": [
-            "Reverse Proxy"
+            "Email"
         ]
     },
     {
@@ -896,6 +873,13 @@
         ]
     },
     {
+        "reference": "appwrite",
+        "name": "Appwrite",
+        "tags": [
+            "Development"
+        ]
+    },
+    {
         "reference": "prestashop",
         "name": "PrestaShop",
         "tags": [
@@ -903,10 +887,19 @@
         ]
     },
     {
-        "reference": "overleaf",
-        "name": "Overleaf",
+        "reference": "nginx-proxy",
+        "name": "nginx-proxy",
         "tags": [
-            "LaTeX"
+            "Reverse Proxy"
+        ]
+    },
+    {
+        "reference": "nextcloud",
+        "name": "Nextcloud",
+        "tags": [
+            "Cloud Storage",
+            "File Management",
+            "File Transfer and Sync"
         ]
     },
     {
@@ -915,6 +908,13 @@
         "tags": [
             "Antivirus",
             "Security"
+        ]
+    },
+    {
+        "reference": "overleaf",
+        "name": "Overleaf",
+        "tags": [
+            "LaTeX"
         ]
     },
     {
@@ -941,18 +941,18 @@
         ]
     },
     {
+        "reference": "open-web-analytics",
+        "name": "Open Web Analytics",
+        "tags": [
+            "Web Analytics"
+        ]
+    },
+    {
         "reference": "adguard-home",
         "name": "AdGuard Home",
         "tags": [
             "Ad Block",
             "DNS"
-        ]
-    },
-    {
-        "reference": "open-web-analytics",
-        "name": "Open Web Analytics",
-        "tags": [
-            "Web Analytics"
         ]
     },
     {
@@ -970,22 +970,6 @@
         ]
     },
     {
-        "reference": "appflowy",
-        "name": "AppFlowy",
-        "tags": [
-            "Note-Taking",
-            "Wiki",
-            "Workspace"
-        ]
-    },
-    {
-        "reference": "cyberchef",
-        "name": "CyberChef",
-        "tags": [
-            "Development"
-        ]
-    },
-    {
         "reference": "lyrion-music-server",
         "name": "Lyrion Music Server",
         "tags": [
@@ -1000,24 +984,26 @@
         ]
     },
     {
+        "reference": "cyberchef",
+        "name": "CyberChef",
+        "tags": [
+            "Development"
+        ]
+    },
+    {
+        "reference": "appflowy",
+        "name": "AppFlowy",
+        "tags": [
+            "Note-Taking",
+            "Wiki",
+            "Workspace"
+        ]
+    },
+    {
         "reference": "cloud-commander",
         "name": "Cloud Commander",
         "tags": [
             "File Management"
-        ]
-    },
-    {
-        "reference": "localsend",
-        "name": "LocalSend",
-        "tags": [
-            "Local File Sharing"
-        ]
-    },
-    {
-        "reference": "zulip",
-        "name": "Zulip",
-        "tags": [
-            "Messaging"
         ]
     },
     {
@@ -1038,6 +1024,13 @@
         ]
     },
     {
+        "reference": "zulip",
+        "name": "Zulip",
+        "tags": [
+            "Messaging"
+        ]
+    },
+    {
         "reference": "rsshub",
         "name": "RSSHub",
         "tags": [
@@ -1049,6 +1042,13 @@
         "name": "Mautic",
         "tags": [
             "Marketing"
+        ]
+    },
+    {
+        "reference": "localsend",
+        "name": "LocalSend",
+        "tags": [
+            "Local File Sharing"
         ]
     },
     {
@@ -1082,6 +1082,13 @@
         ]
     },
     {
+        "reference": "keepassxc",
+        "name": "KeePassXC",
+        "tags": [
+            "Password Manager"
+        ]
+    },
+    {
         "reference": "trilium-notes",
         "name": "Trilium Notes",
         "tags": [
@@ -1090,18 +1097,10 @@
         ]
     },
     {
-        "reference": "keepassxc",
-        "name": "KeePassXC",
+        "reference": "invoice-ninja",
+        "name": "Invoice Ninja",
         "tags": [
-            "Password Manager"
-        ]
-    },
-    {
-        "reference": "stirling-pdf",
-        "name": "Stirling PDF",
-        "tags": [
-            "Document Management",
-            "PDF"
+            "Accounting"
         ]
     },
     {
@@ -1109,13 +1108,6 @@
         "name": "PhotoPrism",
         "tags": [
             "Photos"
-        ]
-    },
-    {
-        "reference": "invoice-ninja",
-        "name": "Invoice Ninja",
-        "tags": [
-            "Accounting"
         ]
     },
     {
@@ -1134,12 +1126,11 @@
         ]
     },
     {
-        "reference": "ampache",
-        "name": "Ampache",
+        "reference": "stirling-pdf",
+        "name": "Stirling PDF",
         "tags": [
-            "Media Streaming",
-            "Music",
-            "Music Streaming"
+            "Document Management",
+            "PDF"
         ]
     },
     {
@@ -1150,10 +1141,12 @@
         ]
     },
     {
-        "reference": "wiki-js",
-        "name": "Wiki.js",
+        "reference": "ampache",
+        "name": "Ampache",
         "tags": [
-            "Wiki"
+            "Media Streaming",
+            "Music",
+            "Music Streaming"
         ]
     },
     {
@@ -1162,6 +1155,13 @@
         "tags": [
             "Feed Reader",
             "RSS"
+        ]
+    },
+    {
+        "reference": "wiki-js",
+        "name": "Wiki.js",
+        "tags": [
+            "Wiki"
         ]
     },
     {
@@ -1233,14 +1233,6 @@
         ]
     },
     {
-        "reference": "authelia",
-        "name": "Authelia",
-        "tags": [
-            "Authentication",
-            "Identity Management"
-        ]
-    },
-    {
         "reference": "feedbin",
         "name": "Feedbin",
         "tags": [
@@ -1249,10 +1241,11 @@
         ]
     },
     {
-        "reference": "mysql",
-        "name": "MySQL",
+        "reference": "authelia",
+        "name": "Authelia",
         "tags": [
-            "Database"
+            "Authentication",
+            "Identity Management"
         ]
     },
     {
@@ -1263,11 +1256,10 @@
         ]
     },
     {
-        "reference": "humhub",
-        "name": "HumHub",
+        "reference": "mysql",
+        "name": "MySQL",
         "tags": [
-            "Social Media",
-            "Wiki"
+            "Database"
         ]
     },
     {
@@ -1275,6 +1267,14 @@
         "name": "BackupPC",
         "tags": [
             "Backups"
+        ]
+    },
+    {
+        "reference": "humhub",
+        "name": "HumHub",
+        "tags": [
+            "Social Media",
+            "Wiki"
         ]
     },
     {
@@ -1307,11 +1307,58 @@
         ]
     },
     {
+        "reference": "ftpgrab",
+        "name": "FTPGrab",
+        "tags": [
+            "File Transfer and Sync"
+        ]
+    },
+    {
+        "reference": "bitwarden",
+        "name": "Bitwarden",
+        "tags": [
+            "2FA",
+            "Password Manager"
+        ]
+    },
+    {
+        "reference": "zabbix",
+        "name": "Zabbix",
+        "tags": [
+            "Monitoring",
+            "Uptime"
+        ]
+    },
+    {
         "reference": "copyparty",
         "name": "copyparty",
         "tags": [
             "File Sharing",
             "File Transfer and Sync"
+        ]
+    },
+    {
+        "reference": "silex",
+        "name": "Silex",
+        "tags": [
+            "Development",
+            "No-Code / Low-Code"
+        ]
+    },
+    {
+        "reference": "netbox",
+        "name": "NetBox",
+        "tags": [
+            "Monitoring",
+            "Networking"
+        ]
+    },
+    {
+        "reference": "navidrome",
+        "name": "Navidrome",
+        "tags": [
+            "Music",
+            "Music Streaming"
         ]
     },
     {
@@ -1324,65 +1371,10 @@
         ]
     },
     {
-        "reference": "bitwarden",
-        "name": "Bitwarden",
-        "tags": [
-            "2FA",
-            "Password Manager"
-        ]
-    },
-    {
-        "reference": "ftpgrab",
-        "name": "FTPGrab",
-        "tags": [
-            "File Transfer and Sync"
-        ]
-    },
-    {
-        "reference": "netbox",
-        "name": "NetBox",
-        "tags": [
-            "Monitoring",
-            "Networking"
-        ]
-    },
-    {
-        "reference": "zabbix",
-        "name": "Zabbix",
-        "tags": [
-            "Monitoring",
-            "Uptime"
-        ]
-    },
-    {
-        "reference": "navidrome",
-        "name": "Navidrome",
-        "tags": [
-            "Music",
-            "Music Streaming"
-        ]
-    },
-    {
-        "reference": "silex",
-        "name": "Silex",
-        "tags": [
-            "Development",
-            "No-Code / Low-Code"
-        ]
-    },
-    {
         "reference": "adnanh-webhook",
         "name": "Webhook",
         "tags": [
             "Webhooks"
-        ]
-    },
-    {
-        "reference": "nginx-proxy-manager",
-        "name": "Nginx Proxy Manager",
-        "tags": [
-            "Reverse Proxy",
-            "Web Server"
         ]
     },
     {
@@ -1401,6 +1393,14 @@
         ]
     },
     {
+        "reference": "nginx-proxy-manager",
+        "name": "Nginx Proxy Manager",
+        "tags": [
+            "Reverse Proxy",
+            "Web Server"
+        ]
+    },
+    {
         "reference": "borg",
         "name": "Borg",
         "tags": [
@@ -1416,6 +1416,14 @@
         ]
     },
     {
+        "reference": "forgejo",
+        "name": "Forgejo",
+        "tags": [
+            "Development",
+            "Git"
+        ]
+    },
+    {
         "reference": "wetty",
         "name": "WeTTY",
         "tags": [
@@ -1428,14 +1436,6 @@
         "name": "ArchiveBox",
         "tags": [
             "Archive"
-        ]
-    },
-    {
-        "reference": "forgejo",
-        "name": "Forgejo",
-        "tags": [
-            "Development",
-            "Git"
         ]
     },
     {
@@ -1462,20 +1462,6 @@
         ]
     },
     {
-        "reference": "coolify",
-        "name": "Coolify",
-        "tags": [
-            "Deployment"
-        ]
-    },
-    {
-        "reference": "memos",
-        "name": "Memos",
-        "tags": [
-            "Note-Taking"
-        ]
-    },
-    {
         "reference": "filepizza",
         "name": "FilePizza",
         "tags": [
@@ -1499,17 +1485,24 @@
         ]
     },
     {
+        "reference": "coolify",
+        "name": "Coolify",
+        "tags": [
+            "Deployment"
+        ]
+    },
+    {
+        "reference": "memos",
+        "name": "Memos",
+        "tags": [
+            "Note-Taking"
+        ]
+    },
+    {
         "reference": "cypht",
         "name": "Cypht",
         "tags": [
             "Email"
-        ]
-    },
-    {
-        "reference": "snapdrop",
-        "name": "Snapdrop",
-        "tags": [
-            "Local File Sharing"
         ]
     },
     {
@@ -1527,11 +1520,10 @@
         ]
     },
     {
-        "reference": "yunohost",
-        "name": "YunoHost",
+        "reference": "snapdrop",
+        "name": "Snapdrop",
         "tags": [
-            "Deployment",
-            "Platform"
+            "Local File Sharing"
         ]
     },
     {
@@ -1539,6 +1531,14 @@
         "name": "Faridoon",
         "tags": [
             "Tracking"
+        ]
+    },
+    {
+        "reference": "yunohost",
+        "name": "YunoHost",
+        "tags": [
+            "Deployment",
+            "Platform"
         ]
     },
     {
@@ -1553,22 +1553,6 @@
         "name": "InvoicePlane",
         "tags": [
             "Accounting"
-        ]
-    },
-    {
-        "reference": "alist",
-        "name": "AList",
-        "tags": [
-            "File Sharing",
-            "File Transfer and Sync"
-        ]
-    },
-    {
-        "reference": "monica",
-        "name": "Monica",
-        "tags": [
-            "Relationships",
-            "Tracking"
         ]
     },
     {
@@ -1587,6 +1571,22 @@
         ]
     },
     {
+        "reference": "monica",
+        "name": "Monica",
+        "tags": [
+            "Relationships",
+            "Tracking"
+        ]
+    },
+    {
+        "reference": "alist",
+        "name": "AList",
+        "tags": [
+            "File Sharing",
+            "File Transfer and Sync"
+        ]
+    },
+    {
         "reference": "librespeed",
         "name": "LibreSpeed",
         "tags": [
@@ -1601,14 +1601,6 @@
         ]
     },
     {
-        "reference": "cloudreve",
-        "name": "Cloudreve",
-        "tags": [
-            "Cloud Storage",
-            "File Management"
-        ]
-    },
-    {
         "reference": "tautulli",
         "name": "Tautulli",
         "tags": [
@@ -1620,6 +1612,14 @@
         "name": "DAViCal",
         "tags": [
             "Calendar"
+        ]
+    },
+    {
+        "reference": "cloudreve",
+        "name": "Cloudreve",
+        "tags": [
+            "Cloud Storage",
+            "File Management"
         ]
     },
     {
@@ -1652,17 +1652,17 @@
         ]
     },
     {
-        "reference": "loki",
-        "name": "Loki",
-        "tags": [
-            "Logs"
-        ]
-    },
-    {
         "reference": "gerbera",
         "name": "Gerbera",
         "tags": [
             "Media Streaming"
+        ]
+    },
+    {
+        "reference": "loki",
+        "name": "Loki",
+        "tags": [
+            "Logs"
         ]
     },
     {
@@ -1680,13 +1680,6 @@
         ]
     },
     {
-        "reference": "pocketbase",
-        "name": "PocketBase",
-        "tags": [
-            "Backend"
-        ]
-    },
-    {
         "reference": "lightweight-music-server",
         "name": "Lightweight Music Server",
         "tags": [
@@ -1699,6 +1692,13 @@
         "name": "Logseq",
         "tags": [
             "Wiki"
+        ]
+    },
+    {
+        "reference": "pocketbase",
+        "name": "PocketBase",
+        "tags": [
+            "Backend"
         ]
     },
     {
@@ -1725,11 +1725,11 @@
         ]
     },
     {
-        "reference": "frigate",
-        "name": "Frigate",
+        "reference": "gancio",
+        "name": "Gancio",
         "tags": [
-            "NVR",
-            "Video Surveillance"
+            "ActivityPub / Fediverse",
+            "Events"
         ]
     },
     {
@@ -1740,20 +1740,11 @@
         ]
     },
     {
-        "reference": "gancio",
-        "name": "Gancio",
+        "reference": "frigate",
+        "name": "Frigate",
         "tags": [
-            "ActivityPub / Fediverse",
-            "Events"
-        ]
-    },
-    {
-        "reference": "siyuan",
-        "name": "SiYuan",
-        "tags": [
-            "Note-Taking",
-            "Wiki",
-            "Workspace"
+            "NVR",
+            "Video Surveillance"
         ]
     },
     {
@@ -1764,10 +1755,12 @@
         ]
     },
     {
-        "reference": "appsmith",
-        "name": "Appsmith",
+        "reference": "siyuan",
+        "name": "SiYuan",
         "tags": [
-            "No-Code / Low-Code"
+            "Note-Taking",
+            "Wiki",
+            "Workspace"
         ]
     },
     {
@@ -1783,6 +1776,13 @@
         "name": "Xibo",
         "tags": [
             "Digital Signage"
+        ]
+    },
+    {
+        "reference": "appsmith",
+        "name": "Appsmith",
+        "tags": [
+            "No-Code / Low-Code"
         ]
     },
     {
@@ -1802,25 +1802,10 @@
         ]
     },
     {
-        "reference": "it-tools",
-        "name": "IT Tools",
-        "tags": [
-            "Development",
-            "Tools"
-        ]
-    },
-    {
         "reference": "piwigo",
         "name": "Piwigo",
         "tags": [
             "Photos"
-        ]
-    },
-    {
-        "reference": "postal",
-        "name": "Postal",
-        "tags": [
-            "Email"
         ]
     },
     {
@@ -1831,11 +1816,33 @@
         ]
     },
     {
+        "reference": "it-tools",
+        "name": "IT Tools",
+        "tags": [
+            "Development",
+            "Tools"
+        ]
+    },
+    {
+        "reference": "postal",
+        "name": "Postal",
+        "tags": [
+            "Email"
+        ]
+    },
+    {
         "reference": "funkwhale",
         "name": "Funkwhale",
         "tags": [
             "ActivityPub / Fediverse",
             "Music"
+        ]
+    },
+    {
+        "reference": "live-blog",
+        "name": "Live Blog",
+        "tags": [
+            "Blog"
         ]
     },
     {
@@ -1869,24 +1876,17 @@
         ]
     },
     {
-        "reference": "reactive-resume",
-        "name": "Reactive Resume",
-        "tags": [
-            "Landing Page"
-        ]
-    },
-    {
-        "reference": "payload",
-        "name": "Payload",
-        "tags": [
-            "Content Management"
-        ]
-    },
-    {
         "reference": "docassemble",
         "name": "Docassemble",
         "tags": [
             "Surveys and Forms"
+        ]
+    },
+    {
+        "reference": "reactive-resume",
+        "name": "Reactive Resume",
+        "tags": [
+            "Landing Page"
         ]
     },
     {
@@ -1906,10 +1906,10 @@
         ]
     },
     {
-        "reference": "live-blog",
-        "name": "Live Blog",
+        "reference": "payload",
+        "name": "Payload",
         "tags": [
-            "Blog"
+            "Content Management"
         ]
     },
     {
@@ -1918,14 +1918,6 @@
         "tags": [
             "2FA",
             "Password Manager"
-        ]
-    },
-    {
-        "reference": "headscale",
-        "name": "Headscale",
-        "tags": [
-            "Remote Access",
-            "VPN"
         ]
     },
     {
@@ -1947,6 +1939,14 @@
         "name": "PrivateBin",
         "tags": [
             "Pastebin"
+        ]
+    },
+    {
+        "reference": "headscale",
+        "name": "Headscale",
+        "tags": [
+            "Remote Access",
+            "VPN"
         ]
     },
     {
@@ -1979,10 +1979,11 @@
         ]
     },
     {
-        "reference": "plausible",
-        "name": "Plausible",
+        "reference": "spendspentspent",
+        "name": "SpendSpentSpent",
         "tags": [
-            "Web Analytics"
+            "Budgeting",
+            "Tracking"
         ]
     },
     {
@@ -1993,11 +1994,10 @@
         ]
     },
     {
-        "reference": "spendspentspent",
-        "name": "SpendSpentSpent",
+        "reference": "plausible",
+        "name": "Plausible",
         "tags": [
-            "Budgeting",
-            "Tracking"
+            "Web Analytics"
         ]
     },
     {
@@ -2005,6 +2005,13 @@
         "name": "Medusa",
         "tags": [
             "E-commerce"
+        ]
+    },
+    {
+        "reference": "budibase",
+        "name": "Budibase",
+        "tags": [
+            "No-Code / Low-Code"
         ]
     },
     {
@@ -2017,24 +2024,9 @@
         ]
     },
     {
-        "reference": "budibase",
-        "name": "Budibase",
-        "tags": [
-            "No-Code / Low-Code"
-        ]
-    },
-    {
         "reference": "umami",
         "name": "Umami",
         "tags": [
-            "Web Analytics"
-        ]
-    },
-    {
-        "reference": "posthog",
-        "name": "PostHog",
-        "tags": [
-            "Marketing",
             "Web Analytics"
         ]
     },
@@ -2043,6 +2035,14 @@
         "name": "Ombi",
         "tags": [
             "Requests"
+        ]
+    },
+    {
+        "reference": "posthog",
+        "name": "PostHog",
+        "tags": [
+            "Marketing",
+            "Web Analytics"
         ]
     },
     {
@@ -2103,11 +2103,12 @@
         ]
     },
     {
-        "reference": "caprover",
-        "name": "CapRover",
+        "reference": "azuracast",
+        "name": "AzuraCast",
         "tags": [
-            "Deployment",
-            "Platform"
+            "Music",
+            "Music Streaming",
+            "Radio"
         ]
     },
     {
@@ -2119,12 +2120,11 @@
         ]
     },
     {
-        "reference": "azuracast",
-        "name": "AzuraCast",
+        "reference": "caprover",
+        "name": "CapRover",
         "tags": [
-            "Music",
-            "Music Streaming",
-            "Radio"
+            "Deployment",
+            "Platform"
         ]
     },
     {
@@ -2156,13 +2156,6 @@
         ]
     },
     {
-        "reference": "tooljet",
-        "name": "ToolJet",
-        "tags": [
-            "No-Code / Low-Code"
-        ]
-    },
-    {
         "reference": "duplicacy",
         "name": "Duplicacy",
         "tags": [
@@ -2182,6 +2175,13 @@
         "tags": [
             "Development",
             "Front End"
+        ]
+    },
+    {
+        "reference": "tooljet",
+        "name": "ToolJet",
+        "tags": [
+            "No-Code / Low-Code"
         ]
     },
     {
@@ -2208,18 +2208,18 @@
         ]
     },
     {
-        "reference": "akaunting",
-        "name": "Akaunting",
-        "tags": [
-            "Accounting"
-        ]
-    },
-    {
         "reference": "draw-io",
         "name": "draw.io",
         "tags": [
             "Diagrams",
             "Whiteboard"
+        ]
+    },
+    {
+        "reference": "akaunting",
+        "name": "Akaunting",
+        "tags": [
+            "Accounting"
         ]
     },
     {
@@ -2231,13 +2231,6 @@
         ]
     },
     {
-        "reference": "kimai",
-        "name": "Kimai",
-        "tags": [
-            "Time Tracking"
-        ]
-    },
-    {
         "reference": "ara-records-ansible",
         "name": "ARA",
         "tags": [
@@ -2245,10 +2238,10 @@
         ]
     },
     {
-        "reference": "zigbee2mqtt",
-        "name": "Zigbee2MQTT",
+        "reference": "kimai",
+        "name": "Kimai",
         "tags": [
-            "Internet of Things"
+            "Time Tracking"
         ]
     },
     {
@@ -2259,11 +2252,10 @@
         ]
     },
     {
-        "reference": "novu",
-        "name": "Novu",
+        "reference": "zigbee2mqtt",
+        "name": "Zigbee2MQTT",
         "tags": [
-            "Development",
-            "Notifications"
+            "Internet of Things"
         ]
     },
     {
@@ -2275,11 +2267,11 @@
         ]
     },
     {
-        "reference": "polaris",
-        "name": "Polaris",
+        "reference": "novu",
+        "name": "Novu",
         "tags": [
-            "Music",
-            "Music Streaming"
+            "Development",
+            "Notifications"
         ]
     },
     {
@@ -2287,6 +2279,14 @@
         "name": "OpenTalk",
         "tags": [
             "Video Conferencing"
+        ]
+    },
+    {
+        "reference": "polaris",
+        "name": "Polaris",
+        "tags": [
+            "Music",
+            "Music Streaming"
         ]
     },
     {
@@ -2305,13 +2305,6 @@
         ]
     },
     {
-        "reference": "plane",
-        "name": "Plane",
-        "tags": [
-            "Project Management"
-        ]
-    },
-    {
         "reference": "anycable",
         "name": "AnyCable",
         "tags": [
@@ -2324,6 +2317,13 @@
         "tags": [
             "Messaging",
             "Video Conferencing"
+        ]
+    },
+    {
+        "reference": "plane",
+        "name": "Plane",
+        "tags": [
+            "Project Management"
         ]
     },
     {
@@ -2343,14 +2343,6 @@
         ]
     },
     {
-        "reference": "czkawka",
-        "name": "Czkawka",
-        "tags": [
-            "Automation",
-            "File Management"
-        ]
-    },
-    {
         "reference": "podsync",
         "name": "Podsync",
         "tags": [
@@ -2362,6 +2354,14 @@
         "name": "Nextcloud Mail",
         "tags": [
             "Email"
+        ]
+    },
+    {
+        "reference": "czkawka",
+        "name": "Czkawka",
+        "tags": [
+            "Automation",
+            "File Management"
         ]
     },
     {
@@ -2381,17 +2381,17 @@
         ]
     },
     {
-        "reference": "kutt",
-        "name": "Kutt",
-        "tags": [
-            "URL Shortener"
-        ]
-    },
-    {
         "reference": "pgadmin",
         "name": "pgAdmin",
         "tags": [
             "Database"
+        ]
+    },
+    {
+        "reference": "kutt",
+        "name": "Kutt",
+        "tags": [
+            "URL Shortener"
         ]
     },
     {
@@ -2433,15 +2433,6 @@
         ]
     },
     {
-        "reference": "esphome",
-        "name": "ESPHome",
-        "tags": [
-            "Home Automation",
-            "Internet of Things",
-            "Smart Home"
-        ]
-    },
-    {
         "reference": "bazarr",
         "name": "Bazarr",
         "tags": [
@@ -2451,10 +2442,12 @@
         ]
     },
     {
-        "reference": "changedetection",
-        "name": "ChangeDetection",
+        "reference": "esphome",
+        "name": "ESPHome",
         "tags": [
-            "Monitoring"
+            "Home Automation",
+            "Internet of Things",
+            "Smart Home"
         ]
     },
     {
@@ -2462,13 +2455,6 @@
         "name": "MeshCentral",
         "tags": [
             "Remote Access"
-        ]
-    },
-    {
-        "reference": "listmonk",
-        "name": "listmonk",
-        "tags": [
-            "Newsletters"
         ]
     },
     {
@@ -2480,11 +2466,25 @@
         ]
     },
     {
+        "reference": "listmonk",
+        "name": "listmonk",
+        "tags": [
+            "Newsletters"
+        ]
+    },
+    {
         "reference": "onedev",
         "name": "OneDev",
         "tags": [
             "Development",
             "Git"
+        ]
+    },
+    {
+        "reference": "changedetection",
+        "name": "ChangeDetection",
+        "tags": [
+            "Monitoring"
         ]
     },
     {
@@ -2528,18 +2528,18 @@
         ]
     },
     {
-        "reference": "paperless-ngx",
-        "name": "Paperless-ngx",
-        "tags": [
-            "Document Management"
-        ]
-    },
-    {
         "reference": "technitium",
         "name": "Technitium",
         "tags": [
             "Ad Block",
             "DNS"
+        ]
+    },
+    {
+        "reference": "paperless-ngx",
+        "name": "Paperless-ngx",
+        "tags": [
+            "Document Management"
         ]
     },
     {
@@ -2559,13 +2559,6 @@
         ]
     },
     {
-        "reference": "sunshine",
-        "name": "Sunshine",
-        "tags": [
-            "Gaming"
-        ]
-    },
-    {
         "reference": "heimdall",
         "name": "Heimdall",
         "tags": [
@@ -2573,11 +2566,10 @@
         ]
     },
     {
-        "reference": "localai",
-        "name": "LocalAI",
+        "reference": "sunshine",
+        "name": "Sunshine",
         "tags": [
-            "Artificial Intelligence",
-            "Front End"
+            "Gaming"
         ]
     },
     {
@@ -2596,19 +2588,20 @@
         ]
     },
     {
+        "reference": "fittrackee",
+        "name": "FitTrackee",
+        "tags": [
+            "Fitness",
+            "Tracking"
+        ]
+    },
+    {
         "reference": "lemmy",
         "name": "Lemmy",
         "tags": [
             "ActivityPub / Fediverse",
             "Forums",
             "Social News"
-        ]
-    },
-    {
-        "reference": "cobalt",
-        "name": "Cobalt",
-        "tags": [
-            "Downloads"
         ]
     },
     {
@@ -2620,11 +2613,18 @@
         ]
     },
     {
-        "reference": "fittrackee",
-        "name": "FitTrackee",
+        "reference": "localai",
+        "name": "LocalAI",
         "tags": [
-            "Fitness",
-            "Tracking"
+            "Artificial Intelligence",
+            "Front End"
+        ]
+    },
+    {
+        "reference": "kitsu",
+        "name": "Kitsu",
+        "tags": [
+            "Video Editing"
         ]
     },
     {
@@ -2637,10 +2637,10 @@
         ]
     },
     {
-        "reference": "kitsu",
-        "name": "Kitsu",
+        "reference": "cobalt",
+        "name": "Cobalt",
         "tags": [
-            "Video Editing"
+            "Downloads"
         ]
     },
     {
@@ -2668,17 +2668,17 @@
         ]
     },
     {
-        "reference": "twenty-crm",
-        "name": "Twenty",
-        "tags": [
-            "Customer Relationship Management"
-        ]
-    },
-    {
         "reference": "miniserve",
         "name": "miniserve",
         "tags": [
             "Web Server"
+        ]
+    },
+    {
+        "reference": "twenty-crm",
+        "name": "Twenty",
+        "tags": [
+            "Customer Relationship Management"
         ]
     },
     {
@@ -2690,10 +2690,11 @@
         ]
     },
     {
-        "reference": "signoz",
-        "name": "SigNoz",
+        "reference": "diun",
+        "name": "Diun",
         "tags": [
-            "Monitoring"
+            "Docker",
+            "Updates"
         ]
     },
     {
@@ -2704,11 +2705,10 @@
         ]
     },
     {
-        "reference": "diun",
-        "name": "Diun",
+        "reference": "signoz",
+        "name": "SigNoz",
         "tags": [
-            "Docker",
-            "Updates"
+            "Monitoring"
         ]
     },
     {
@@ -2749,6 +2749,13 @@
         ]
     },
     {
+        "reference": "sup3rS3cretMes5age",
+        "name": "sup3r S3cret Mes5age",
+        "tags": [
+            "Privacy"
+        ]
+    },
+    {
         "reference": "searxng",
         "name": "SearXNG",
         "tags": [
@@ -2761,13 +2768,6 @@
         "tags": [
             "Downloads",
             "Videos"
-        ]
-    },
-    {
-        "reference": "sup3rS3cretMes5age",
-        "name": "sup3r S3cret Mes5age",
-        "tags": [
-            "Privacy"
         ]
     },
     {
@@ -2815,14 +2815,6 @@
         ]
     },
     {
-        "reference": "wg-easy",
-        "name": "wg-easy",
-        "tags": [
-            "Remote Access",
-            "VPN"
-        ]
-    },
-    {
         "reference": "tasmoadmin",
         "name": "TasmoAdmin",
         "tags": [
@@ -2838,18 +2830,18 @@
         ]
     },
     {
+        "reference": "wg-easy",
+        "name": "wg-easy",
+        "tags": [
+            "Remote Access",
+            "VPN"
+        ]
+    },
+    {
         "reference": "sftpgo",
         "name": "SFTPGo",
         "tags": [
             "File Transfer and Sync"
-        ]
-    },
-    {
-        "reference": "netbird",
-        "name": "NetBird",
-        "tags": [
-            "Remote Access",
-            "VPN"
         ]
     },
     {
@@ -2861,12 +2853,11 @@
         ]
     },
     {
-        "reference": "planka",
-        "name": "Planka",
+        "reference": "netbird",
+        "name": "NetBird",
         "tags": [
-            "Kanban",
-            "Project Management",
-            "Tasks and To-Do Lists"
+            "Remote Access",
+            "VPN"
         ]
     },
     {
@@ -2874,6 +2865,15 @@
         "name": "Lychee",
         "tags": [
             "Photos"
+        ]
+    },
+    {
+        "reference": "planka",
+        "name": "Planka",
+        "tags": [
+            "Kanban",
+            "Project Management",
+            "Tasks and To-Do Lists"
         ]
     },
     {
@@ -2892,19 +2892,19 @@
         ]
     },
     {
-        "reference": "linkding",
-        "name": "Linkding",
-        "tags": [
-            "Bookmarks",
-            "Read Later"
-        ]
-    },
-    {
         "reference": "planarally",
         "name": "PlanarAlly",
         "tags": [
             "Gaming",
             "Virtual Tabletop"
+        ]
+    },
+    {
+        "reference": "linkding",
+        "name": "Linkding",
+        "tags": [
+            "Bookmarks",
+            "Read Later"
         ]
     },
     {
@@ -2961,18 +2961,18 @@
         ]
     },
     {
+        "reference": "flashpaper",
+        "name": "FlashPaper",
+        "tags": [
+            "File Sharing"
+        ]
+    },
+    {
         "reference": "bunkerweb",
         "name": "BunkerWeb",
         "tags": [
             "Firewall",
             "Security"
-        ]
-    },
-    {
-        "reference": "flashpaper",
-        "name": "FlashPaper",
-        "tags": [
-            "File Sharing"
         ]
     },
     {
@@ -2984,14 +2984,6 @@
         ]
     },
     {
-        "reference": "librechat",
-        "name": "LibreChat",
-        "tags": [
-            "Artificial Intelligence",
-            "Front End"
-        ]
-    },
-    {
         "reference": "hedgedoc",
         "name": "HedgeDoc",
         "tags": [
@@ -2999,10 +2991,11 @@
         ]
     },
     {
-        "reference": "woodpecker-ci",
-        "name": "Woodpecker CI",
+        "reference": "librechat",
+        "name": "LibreChat",
         "tags": [
-            "Development"
+            "Artificial Intelligence",
+            "Front End"
         ]
     },
     {
@@ -3013,11 +3006,10 @@
         ]
     },
     {
-        "reference": "zitadel",
-        "name": "Zitadel",
+        "reference": "woodpecker-ci",
+        "name": "Woodpecker CI",
         "tags": [
-            "Authentication",
-            "Identity Management"
+            "Development"
         ]
     },
     {
@@ -3033,6 +3025,14 @@
         "name": "VueTorrent",
         "tags": [
             "Front End"
+        ]
+    },
+    {
+        "reference": "zitadel",
+        "name": "Zitadel",
+        "tags": [
+            "Authentication",
+            "Identity Management"
         ]
     },
     {
@@ -3070,25 +3070,11 @@
         ]
     },
     {
-        "reference": "puter",
-        "name": "Puter",
-        "tags": [
-            "Web Desktop"
-        ]
-    },
-    {
         "reference": "crowdsec",
         "name": "CrowdSec",
         "tags": [
             "Networking",
             "Security"
-        ]
-    },
-    {
-        "reference": "homepage",
-        "name": "Homepage",
-        "tags": [
-            "Dashboard"
         ]
     },
     {
@@ -3099,10 +3085,24 @@
         ]
     },
     {
+        "reference": "puter",
+        "name": "Puter",
+        "tags": [
+            "Web Desktop"
+        ]
+    },
+    {
         "reference": "photoview",
         "name": "Photoview",
         "tags": [
             "Photos"
+        ]
+    },
+    {
+        "reference": "homepage",
+        "name": "Homepage",
+        "tags": [
+            "Dashboard"
         ]
     },
     {
@@ -3140,14 +3140,6 @@
         "tags": []
     },
     {
-        "reference": "flaresolverr",
-        "name": "FlareSolverr",
-        "tags": [
-            "*arr",
-            "Networking"
-        ]
-    },
-    {
         "reference": "traggo",
         "name": "Traggo",
         "tags": [
@@ -3163,10 +3155,11 @@
         ]
     },
     {
-        "reference": "actual-budget",
-        "name": "Actual Budget",
+        "reference": "flaresolverr",
+        "name": "FlareSolverr",
         "tags": [
-            "Budgeting"
+            "*arr",
+            "Networking"
         ]
     },
     {
@@ -3174,6 +3167,13 @@
         "name": "Komga",
         "tags": [
             "Books"
+        ]
+    },
+    {
+        "reference": "actual-budget",
+        "name": "Actual Budget",
+        "tags": [
+            "Budgeting"
         ]
     },
     {
@@ -3208,6 +3208,13 @@
         ]
     },
     {
+        "reference": "obico",
+        "name": "Obico",
+        "tags": [
+            "3D Printing"
+        ]
+    },
+    {
         "reference": "owncast",
         "name": "Owncast",
         "tags": [
@@ -3215,10 +3222,11 @@
         ]
     },
     {
-        "reference": "obico",
-        "name": "Obico",
+        "reference": "anonaddy",
+        "name": "AnonAddy",
         "tags": [
-            "3D Printing"
+            "Email",
+            "Privacy"
         ]
     },
     {
@@ -3232,26 +3240,11 @@
         ]
     },
     {
-        "reference": "anonaddy",
-        "name": "AnonAddy",
-        "tags": [
-            "Email",
-            "Privacy"
-        ]
-    },
-    {
         "reference": "recipesage",
         "name": "RecipeSage",
         "tags": [
             "Grocery Lists",
             "Recipes"
-        ]
-    },
-    {
-        "reference": "opencut",
-        "name": "OpenCut",
-        "tags": [
-            "Video Editing"
         ]
     },
     {
@@ -3278,17 +3271,17 @@
         ]
     },
     {
+        "reference": "opencut",
+        "name": "OpenCut",
+        "tags": [
+            "Video Editing"
+        ]
+    },
+    {
         "reference": "libretranslate",
         "name": "LibreTranslate",
         "tags": [
             "Language"
-        ]
-    },
-    {
-        "reference": "web-check",
-        "name": "Web-Check",
-        "tags": [
-            "Security"
         ]
     },
     {
@@ -3299,11 +3292,10 @@
         ]
     },
     {
-        "reference": "infisical",
-        "name": "Infisical",
+        "reference": "wikidocs",
+        "name": "WikiDocs",
         "tags": [
-            "Password Manager",
-            "Privacy"
+            "Wiki"
         ]
     },
     {
@@ -3315,10 +3307,10 @@
         ]
     },
     {
-        "reference": "wikidocs",
-        "name": "WikiDocs",
+        "reference": "filegator",
+        "name": "FileGator",
         "tags": [
-            "Wiki"
+            "File Management"
         ]
     },
     {
@@ -3329,10 +3321,18 @@
         ]
     },
     {
-        "reference": "filegator",
-        "name": "FileGator",
+        "reference": "infisical",
+        "name": "Infisical",
         "tags": [
-            "File Management"
+            "Password Manager",
+            "Privacy"
+        ]
+    },
+    {
+        "reference": "web-check",
+        "name": "Web-Check",
+        "tags": [
+            "Security"
         ]
     },
     {
@@ -3358,6 +3358,14 @@
             "Remote Access",
             "Server Management",
             "Terminal"
+        ]
+    },
+    {
+        "reference": "tdarr",
+        "name": "Tdarr",
+        "tags": [
+            "*arr",
+            "Automation"
         ]
     },
     {
@@ -3431,6 +3439,13 @@
         ]
     },
     {
+        "reference": "nextcloud-forms",
+        "name": "Nextcloud Forms",
+        "tags": [
+            "Surveys and Forms"
+        ]
+    },
+    {
         "reference": "ente-auth",
         "name": "Ente Auth",
         "tags": [
@@ -3445,13 +3460,6 @@
         ]
     },
     {
-        "reference": "nextcloud-forms",
-        "name": "Nextcloud Forms",
-        "tags": [
-            "Surveys and Forms"
-        ]
-    },
-    {
         "reference": "owncloud-infinite-scale",
         "name": "ownCloud Infinite Scale",
         "tags": [
@@ -3461,11 +3469,11 @@
         ]
     },
     {
-        "reference": "tdarr",
-        "name": "Tdarr",
+        "reference": "astuto",
+        "name": "Astuto",
         "tags": [
-            "*arr",
-            "Automation"
+            "Feedback",
+            "Voting"
         ]
     },
     {
@@ -3473,14 +3481,6 @@
         "name": "Dub",
         "tags": [
             "URL Shortener"
-        ]
-    },
-    {
-        "reference": "astuto",
-        "name": "Astuto",
-        "tags": [
-            "Feedback",
-            "Voting"
         ]
     },
     {
@@ -3508,12 +3508,17 @@
         ]
     },
     {
-        "reference": "piped",
-        "name": "Piped",
+        "reference": "automad",
+        "name": "Automad",
         "tags": [
-            "Front End",
-            "Privacy",
-            "Videos"
+            "Content Management"
+        ]
+    },
+    {
+        "reference": "richy",
+        "name": "Richy",
+        "tags": [
+            "Wealth Management"
         ]
     },
     {
@@ -3526,17 +3531,12 @@
         ]
     },
     {
-        "reference": "richy",
-        "name": "Richy",
+        "reference": "piped",
+        "name": "Piped",
         "tags": [
-            "Wealth Management"
-        ]
-    },
-    {
-        "reference": "automad",
-        "name": "Automad",
-        "tags": [
-            "Content Management"
+            "Front End",
+            "Privacy",
+            "Videos"
         ]
     },
     {
@@ -3591,14 +3591,6 @@
         ]
     },
     {
-        "reference": "postiz",
-        "name": "Postiz",
-        "tags": [
-            "Scheduling",
-            "Social Media"
-        ]
-    },
-    {
         "reference": "meshping",
         "name": "Meshping",
         "tags": [
@@ -3619,6 +3611,14 @@
         "tags": [
             "ActivityPub / Fediverse",
             "Books"
+        ]
+    },
+    {
+        "reference": "postiz",
+        "name": "Postiz",
+        "tags": [
+            "Scheduling",
+            "Social Media"
         ]
     },
     {
@@ -3651,6 +3651,13 @@
         ]
     },
     {
+        "reference": "papermerge",
+        "name": "Papermerge",
+        "tags": [
+            "Document Management"
+        ]
+    },
+    {
         "reference": "logto",
         "name": "Logto",
         "tags": [
@@ -3659,10 +3666,19 @@
         ]
     },
     {
-        "reference": "papermerge",
-        "name": "Papermerge",
+        "reference": "pasta",
+        "name": "PASTA",
         "tags": [
-            "Document Management"
+            "Subtitles"
+        ]
+    },
+    {
+        "reference": "zipline",
+        "name": "Zipline",
+        "tags": [
+            "File Sharing",
+            "Screenshots",
+            "URL Shortener"
         ]
     },
     {
@@ -3671,13 +3687,6 @@
         "tags": [
             "Deployment",
             "Platform"
-        ]
-    },
-    {
-        "reference": "pasta",
-        "name": "PASTA",
-        "tags": [
-            "Subtitles"
         ]
     },
     {
@@ -3691,27 +3700,10 @@
         ]
     },
     {
-        "reference": "zipline",
-        "name": "Zipline",
-        "tags": [
-            "File Sharing",
-            "Screenshots",
-            "URL Shortener"
-        ]
-    },
-    {
         "reference": "automatisch",
         "name": "Automatisch",
         "tags": [
             "Workflow Automation"
-        ]
-    },
-    {
-        "reference": "glance",
-        "name": "Glance",
-        "tags": [
-            "Dashboard",
-            "Feed Reader"
         ]
     },
     {
@@ -3723,11 +3715,10 @@
         ]
     },
     {
-        "reference": "linkwarden",
-        "name": "Linkwarden",
+        "reference": "saltcorn",
+        "name": "Saltcorn",
         "tags": [
-            "Bookmarks",
-            "Read Later"
+            "No-Code / Low-Code"
         ]
     },
     {
@@ -3739,17 +3730,18 @@
         ]
     },
     {
+        "reference": "linkwarden",
+        "name": "Linkwarden",
+        "tags": [
+            "Bookmarks",
+            "Read Later"
+        ]
+    },
+    {
         "reference": "activepieces",
         "name": "Activepieces",
         "tags": [
             "Workflow Automation"
-        ]
-    },
-    {
-        "reference": "saltcorn",
-        "name": "Saltcorn",
-        "tags": [
-            "No-Code / Low-Code"
         ]
     },
     {
@@ -3764,6 +3756,14 @@
         "name": "SnappyMail",
         "tags": [
             "Email"
+        ]
+    },
+    {
+        "reference": "glance",
+        "name": "Glance",
+        "tags": [
+            "Dashboard",
+            "Feed Reader"
         ]
     },
     {
@@ -3820,18 +3820,18 @@
         ]
     },
     {
-        "reference": "ghostfolio",
-        "name": "Ghostfolio",
-        "tags": [
-            "Wealth Management"
-        ]
-    },
-    {
         "reference": "ezbookkeeping",
         "name": "ezBookkeeping",
         "tags": [
             "Accounting",
             "Budgeting"
+        ]
+    },
+    {
+        "reference": "ghostfolio",
+        "name": "Ghostfolio",
+        "tags": [
+            "Wealth Management"
         ]
     },
     {
@@ -3852,6 +3852,13 @@
         ]
     },
     {
+        "reference": "reaparr",
+        "name": "Reaparr",
+        "tags": [
+            "*arr"
+        ]
+    },
+    {
         "reference": "spacebar",
         "name": "Spacebar",
         "tags": [
@@ -3860,10 +3867,11 @@
         ]
     },
     {
-        "reference": "reaparr",
-        "name": "Reaparr",
+        "reference": "flood",
+        "name": "Flood",
         "tags": [
-            "*arr"
+            "Theme",
+            "Torrents"
         ]
     },
     {
@@ -3876,11 +3884,10 @@
         ]
     },
     {
-        "reference": "flood",
-        "name": "Flood",
+        "reference": "briefing",
+        "name": "Briefing",
         "tags": [
-            "Theme",
-            "Torrents"
+            "Video Conferencing"
         ]
     },
     {
@@ -3889,13 +3896,6 @@
         "tags": [
             "Development",
             "Development Environment"
-        ]
-    },
-    {
-        "reference": "briefing",
-        "name": "Briefing",
-        "tags": [
-            "Video Conferencing"
         ]
     },
     {
@@ -3944,17 +3944,17 @@
         ]
     },
     {
-        "reference": "mediacms",
-        "name": "MediaCMS",
-        "tags": [
-            "Videos"
-        ]
-    },
-    {
         "reference": "budget-board",
         "name": "Budget Board",
         "tags": [
             "Budgeting"
+        ]
+    },
+    {
+        "reference": "mediacms",
+        "name": "MediaCMS",
+        "tags": [
+            "Videos"
         ]
     },
     {
@@ -3973,19 +3973,19 @@
         ]
     },
     {
+        "reference": "i-librarian",
+        "name": "I, Librarian",
+        "tags": [
+            "Document Management"
+        ]
+    },
+    {
         "reference": "obsidian-livesync",
         "name": "Obsidian LiveSync",
         "tags": [
             "File Transfer and Sync",
             "Note-Taking",
             "Wiki"
-        ]
-    },
-    {
-        "reference": "i-librarian",
-        "name": "I, Librarian",
-        "tags": [
-            "Document Management"
         ]
     },
     {
@@ -4024,13 +4024,6 @@
         ]
     },
     {
-        "reference": "typebot",
-        "name": "Typebot",
-        "tags": [
-            "Customer Engagement"
-        ]
-    },
-    {
         "reference": "stormkit",
         "name": "Stormkit",
         "tags": [
@@ -4043,6 +4036,13 @@
         "name": "eddrit",
         "tags": [
             "Front End"
+        ]
+    },
+    {
+        "reference": "typebot",
+        "name": "Typebot",
+        "tags": [
+            "Customer Engagement"
         ]
     },
     {
@@ -4080,18 +4080,18 @@
         ]
     },
     {
+        "reference": "tube-archivist",
+        "name": "Tube Archivist",
+        "tags": [
+            "Videos"
+        ]
+    },
+    {
         "reference": "safeline",
         "name": "SafeLine",
         "tags": [
             "Firewall",
             "Reverse Proxy"
-        ]
-    },
-    {
-        "reference": "tube-archivist",
-        "name": "Tube Archivist",
-        "tags": [
-            "Videos"
         ]
     },
     {
@@ -4116,20 +4116,6 @@
         ]
     },
     {
-        "reference": "rustfs",
-        "name": "RustFS",
-        "tags": [
-            "Object Storage"
-        ]
-    },
-    {
-        "reference": "apache-answer",
-        "name": "Apache Answer",
-        "tags": [
-            "Forums"
-        ]
-    },
-    {
         "reference": "kitchenowl",
         "name": "KitchenOwl",
         "tags": [
@@ -4146,19 +4132,17 @@
         ]
     },
     {
-        "reference": "valkey",
-        "name": "Valkey",
+        "reference": "apache-answer",
+        "name": "Apache Answer",
         "tags": [
-            "Database",
-            "In-Memory Cache"
+            "Forums"
         ]
     },
     {
-        "reference": "karakeep",
-        "name": "Karakeep",
+        "reference": "rustfs",
+        "name": "RustFS",
         "tags": [
-            "Bookmarks",
-            "Read Later"
+            "Object Storage"
         ]
     },
     {
@@ -4178,6 +4162,14 @@
         ]
     },
     {
+        "reference": "valkey",
+        "name": "Valkey",
+        "tags": [
+            "Database",
+            "In-Memory Cache"
+        ]
+    },
+    {
         "reference": "keila",
         "name": "Keila",
         "tags": [
@@ -4192,10 +4184,11 @@
         ]
     },
     {
-        "reference": "formbricks",
-        "name": "Formbricks",
+        "reference": "karakeep",
+        "name": "Karakeep",
         "tags": [
-            "Surveys and Forms"
+            "Bookmarks",
+            "Read Later"
         ]
     },
     {
@@ -4203,15 +4196,6 @@
         "name": "Peppermint",
         "tags": [
             "Support / Ticketing"
-        ]
-    },
-    {
-        "reference": "dockge",
-        "name": "Dockge",
-        "tags": [
-            "Deployment",
-            "Docker",
-            "Server Management"
         ]
     },
     {
@@ -4223,11 +4207,27 @@
         ]
     },
     {
+        "reference": "formbricks",
+        "name": "Formbricks",
+        "tags": [
+            "Surveys and Forms"
+        ]
+    },
+    {
         "reference": "docker-volume-backup",
         "name": "Docker Volume Backup",
         "tags": [
             "Backups",
             "Docker"
+        ]
+    },
+    {
+        "reference": "dockge",
+        "name": "Dockge",
+        "tags": [
+            "Deployment",
+            "Docker",
+            "Server Management"
         ]
     },
     {
@@ -4282,6 +4282,13 @@
         ]
     },
     {
+        "reference": "olivetin",
+        "name": "OliveTin",
+        "tags": [
+            "Remote Access"
+        ]
+    },
+    {
         "reference": "scrypted",
         "name": "Scrypted",
         "tags": [
@@ -4295,13 +4302,6 @@
         "tags": [
             "Wiki",
             "Workspace"
-        ]
-    },
-    {
-        "reference": "olivetin",
-        "name": "OliveTin",
-        "tags": [
-            "Remote Access"
         ]
     },
     {
@@ -4341,21 +4341,21 @@
         ]
     },
     {
-        "reference": "komodo",
-        "name": "Komodo",
-        "tags": [
-            "Deployment",
-            "Docker",
-            "Server Management"
-        ]
-    },
-    {
         "reference": "movary",
         "name": "Movary",
         "tags": [
             "Media Streaming",
             "Movies",
             "Tracking"
+        ]
+    },
+    {
+        "reference": "komodo",
+        "name": "Komodo",
+        "tags": [
+            "Deployment",
+            "Docker",
+            "Server Management"
         ]
     },
     {
@@ -4388,18 +4388,18 @@
         ]
     },
     {
-        "reference": "xpipe",
-        "name": "XPipe",
-        "tags": [
-            "Server Management"
-        ]
-    },
-    {
         "reference": "qbit-manage",
         "name": "qBit Manage",
         "tags": [
             "Automation",
             "Downloads"
+        ]
+    },
+    {
+        "reference": "xpipe",
+        "name": "XPipe",
+        "tags": [
+            "Server Management"
         ]
     },
     {
@@ -4524,13 +4524,6 @@
         ]
     },
     {
-        "reference": "documenso",
-        "name": "Documenso",
-        "tags": [
-            "Document Signing"
-        ]
-    },
-    {
         "reference": "garage",
         "name": "Garage",
         "tags": [
@@ -4538,19 +4531,17 @@
         ]
     },
     {
+        "reference": "documenso",
+        "name": "Documenso",
+        "tags": [
+            "Document Signing"
+        ]
+    },
+    {
         "reference": "silverbullet",
         "name": "SilverBullet",
         "tags": [
             "Note-Taking"
-        ]
-    },
-    {
-        "reference": "ebook2audiobook",
-        "name": "ebook2audiobook",
-        "tags": [
-            "Audiobooks",
-            "Books",
-            "File Conversion"
         ]
     },
     {
@@ -4568,10 +4559,12 @@
         ]
     },
     {
-        "reference": "lunar",
-        "name": "Lunar",
+        "reference": "ebook2audiobook",
+        "name": "ebook2audiobook",
         "tags": [
-            "E-commerce"
+            "Audiobooks",
+            "Books",
+            "File Conversion"
         ]
     },
     {
@@ -4579,6 +4572,13 @@
         "name": "Mitra",
         "tags": [
             "ActivityPub / Fediverse"
+        ]
+    },
+    {
+        "reference": "lunar",
+        "name": "Lunar",
+        "tags": [
+            "E-commerce"
         ]
     },
     {
@@ -4600,13 +4600,6 @@
         "reference": "birdnet-analyzer",
         "name": "BirdNET-Analyzer",
         "tags": []
-    },
-    {
-        "reference": "chartdb",
-        "name": "ChartDB",
-        "tags": [
-            "Database"
-        ]
     },
     {
         "reference": "monetr",
@@ -4640,6 +4633,13 @@
         ]
     },
     {
+        "reference": "chartdb",
+        "name": "ChartDB",
+        "tags": [
+            "Database"
+        ]
+    },
+    {
         "reference": "rustpad",
         "name": "Rustpad",
         "tags": [
@@ -4655,6 +4655,13 @@
         ]
     },
     {
+        "reference": "linkstack",
+        "name": "LinkStack",
+        "tags": [
+            "Landing Page"
+        ]
+    },
+    {
         "reference": "maxun",
         "name": "Maxun",
         "tags": [
@@ -4663,17 +4670,17 @@
         ]
     },
     {
-        "reference": "linkstack",
-        "name": "LinkStack",
-        "tags": [
-            "Landing Page"
-        ]
-    },
-    {
         "reference": "nextcloud-tables",
         "name": "Nextcloud Tables",
         "tags": [
             "No-Code / Low-Code"
+        ]
+    },
+    {
+        "reference": "petio",
+        "name": "Petio",
+        "tags": [
+            "Requests"
         ]
     },
     {
@@ -4685,19 +4692,11 @@
         ]
     },
     {
-        "reference": "petio",
-        "name": "Petio",
+        "reference": "portchecker",
+        "name": "PortChecker",
         "tags": [
-            "Requests"
-        ]
-    },
-    {
-        "reference": "beszel",
-        "name": "Beszel",
-        "tags": [
-            "Docker",
-            "Monitoring",
-            "Server Management"
+            "Networking",
+            "Security"
         ]
     },
     {
@@ -4708,18 +4707,19 @@
         ]
     },
     {
-        "reference": "portchecker",
-        "name": "PortChecker",
-        "tags": [
-            "Networking",
-            "Security"
-        ]
-    },
-    {
         "reference": "picoshare",
         "name": "PicoShare",
         "tags": [
             "File Sharing"
+        ]
+    },
+    {
+        "reference": "beszel",
+        "name": "Beszel",
+        "tags": [
+            "Docker",
+            "Monitoring",
+            "Server Management"
         ]
     },
     {
@@ -4863,6 +4863,20 @@
         ]
     },
     {
+        "reference": "fenrus",
+        "name": "Fenrus",
+        "tags": [
+            "Dashboard"
+        ]
+    },
+    {
+        "reference": "watchyourlan",
+        "name": "WatchYourLAN",
+        "tags": [
+            "Monitoring"
+        ]
+    },
+    {
         "reference": "pangolin",
         "name": "Pangolin",
         "tags": [
@@ -4875,20 +4889,6 @@
         "name": "ConvertX",
         "tags": [
             "File Conversion"
-        ]
-    },
-    {
-        "reference": "fenrus",
-        "name": "Fenrus",
-        "tags": [
-            "Dashboard"
-        ]
-    },
-    {
-        "reference": "watchyourlan",
-        "name": "WatchYourLAN",
-        "tags": [
-            "Monitoring"
         ]
     },
     {
@@ -4907,18 +4907,18 @@
         ]
     },
     {
+        "reference": "akkoma",
+        "name": "Akkoma",
+        "tags": [
+            "ActivityPub / Fediverse"
+        ]
+    },
+    {
         "reference": "storyteller",
         "name": "Storyteller",
         "tags": [
             "Audiobooks",
             "Books"
-        ]
-    },
-    {
-        "reference": "akkoma",
-        "name": "Akkoma",
-        "tags": [
-            "ActivityPub / Fediverse"
         ]
     },
     {
@@ -4989,18 +4989,18 @@
         ]
     },
     {
+        "reference": "ocular",
+        "name": "Ocular",
+        "tags": [
+            "Budgeting"
+        ]
+    },
+    {
         "reference": "manifest",
         "name": "Manifest",
         "tags": [
             "Artificial Intelligence",
             "Development"
-        ]
-    },
-    {
-        "reference": "ocular",
-        "name": "Ocular",
-        "tags": [
-            "Budgeting"
         ]
     },
     {
@@ -5035,10 +5035,11 @@
         ]
     },
     {
-        "reference": "papermark",
-        "name": "Papermark",
+        "reference": "docker-php-startpage",
+        "name": "docker-php-startpage",
         "tags": [
-            "File Sharing"
+            "Dashboard",
+            "Docker"
         ]
     },
     {
@@ -5049,11 +5050,10 @@
         ]
     },
     {
-        "reference": "docker-php-startpage",
-        "name": "docker-php-startpage",
+        "reference": "papermark",
+        "name": "Papermark",
         "tags": [
-            "Dashboard",
-            "Docker"
+            "File Sharing"
         ]
     },
     {
@@ -5079,18 +5079,18 @@
         ]
     },
     {
-        "reference": "openspeedtest",
-        "name": "OpenSpeedTest",
-        "tags": [
-            "Speed Test"
-        ]
-    },
-    {
         "reference": "wizarr",
         "name": "Wizarr",
         "tags": [
             "*arr",
             "Automation"
+        ]
+    },
+    {
+        "reference": "openspeedtest",
+        "name": "OpenSpeedTest",
+        "tags": [
+            "Speed Test"
         ]
     },
     {
@@ -5101,11 +5101,10 @@
         ]
     },
     {
-        "reference": "cosmos-server",
-        "name": "Cosmos",
+        "reference": "chirpy",
+        "name": "Chirpy",
         "tags": [
-            "Deployment",
-            "Platform"
+            "Comments"
         ]
     },
     {
@@ -5116,10 +5115,11 @@
         ]
     },
     {
-        "reference": "chirpy",
-        "name": "Chirpy",
+        "reference": "cosmos-server",
+        "name": "Cosmos",
         "tags": [
-            "Comments"
+            "Deployment",
+            "Platform"
         ]
     },
     {
@@ -5138,18 +5138,18 @@
         ]
     },
     {
-        "reference": "flame",
-        "name": "Flame",
-        "tags": [
-            "Dashboard"
-        ]
-    },
-    {
         "reference": "ganymede",
         "name": "Ganymede",
         "tags": [
             "Archive",
             "Live Streaming"
+        ]
+    },
+    {
+        "reference": "flame",
+        "name": "Flame",
+        "tags": [
+            "Dashboard"
         ]
     },
     {
@@ -5168,17 +5168,17 @@
         ]
     },
     {
-        "reference": "slash",
-        "name": "Slash",
-        "tags": [
-            "URL Shortener"
-        ]
-    },
-    {
         "reference": "double-take",
         "name": "Double Take",
         "tags": [
             "Facial Recognition"
+        ]
+    },
+    {
+        "reference": "slash",
+        "name": "Slash",
+        "tags": [
+            "URL Shortener"
         ]
     },
     {
@@ -5215,17 +5215,17 @@
         ]
     },
     {
-        "reference": "mox",
-        "name": "Mox",
-        "tags": [
-            "Email"
-        ]
-    },
-    {
         "reference": "alexandrie",
         "name": "Alexandrie",
         "tags": [
             "Note-Taking"
+        ]
+    },
+    {
+        "reference": "mox",
+        "name": "Mox",
+        "tags": [
+            "Email"
         ]
     },
     {
@@ -5274,18 +5274,18 @@
         ]
     },
     {
+        "reference": "snac",
+        "name": "Snac",
+        "tags": [
+            "ActivityPub / Fediverse"
+        ]
+    },
+    {
         "reference": "librum",
         "name": "Librum",
         "tags": [
             "Books",
             "Note-Taking"
-        ]
-    },
-    {
-        "reference": "snac",
-        "name": "Snac",
-        "tags": [
-            "ActivityPub / Fediverse"
         ]
     },
     {
@@ -5325,18 +5325,18 @@
         ]
     },
     {
+        "reference": "bracket",
+        "name": "Bracket",
+        "tags": [
+            "Tournaments"
+        ]
+    },
+    {
         "reference": "wallos",
         "name": "Wallos",
         "tags": [
             "Subscriptions",
             "Tracking"
-        ]
-    },
-    {
-        "reference": "bracket",
-        "name": "Bracket",
-        "tags": [
-            "Tournaments"
         ]
     },
     {
@@ -5444,19 +5444,19 @@
         ]
     },
     {
-        "reference": "willow",
-        "name": "Willow",
-        "tags": [
-            "Smart Home",
-            "Voice Assistant"
-        ]
-    },
-    {
         "reference": "piefed",
         "name": "PieFed",
         "tags": [
             "ActivityPub / Fediverse",
             "Social News"
+        ]
+    },
+    {
+        "reference": "willow",
+        "name": "Willow",
+        "tags": [
+            "Smart Home",
+            "Voice Assistant"
         ]
     },
     {
@@ -5468,13 +5468,6 @@
         ]
     },
     {
-        "reference": "vert",
-        "name": "VERT",
-        "tags": [
-            "File Conversion"
-        ]
-    },
-    {
         "reference": "plex-rewind",
         "name": "Plex Rewind",
         "tags": [
@@ -5482,17 +5475,24 @@
         ]
     },
     {
-        "reference": "opensign",
-        "name": "OpenSign",
-        "tags": [
-            "Document Signing"
-        ]
-    },
-    {
         "reference": "chevereto",
         "name": "Chevereto",
         "tags": [
             "Photos"
+        ]
+    },
+    {
+        "reference": "vert",
+        "name": "VERT",
+        "tags": [
+            "File Conversion"
+        ]
+    },
+    {
+        "reference": "opensign",
+        "name": "OpenSign",
+        "tags": [
+            "Document Signing"
         ]
     },
     {
@@ -5600,18 +5600,18 @@
         ]
     },
     {
-        "reference": "dawarich",
-        "name": "Dawarich",
-        "tags": [
-            "GPS"
-        ]
-    },
-    {
         "reference": "podfetch",
         "name": "PodFetch",
         "tags": [
             "Downloads",
             "Podcasts"
+        ]
+    },
+    {
+        "reference": "dawarich",
+        "name": "Dawarich",
+        "tags": [
+            "GPS"
         ]
     },
     {
@@ -5638,18 +5638,18 @@
         ]
     },
     {
-        "reference": "cannery",
-        "name": "Cannery",
-        "tags": [
-            "Tracking"
-        ]
-    },
-    {
         "reference": "operately",
         "name": "Operately",
         "tags": [
             "Project Management",
             "Tasks and To-Do Lists"
+        ]
+    },
+    {
+        "reference": "cannery",
+        "name": "Cannery",
+        "tags": [
+            "Tracking"
         ]
     },
     {
@@ -5699,18 +5699,18 @@
         ]
     },
     {
-        "reference": "kan",
-        "name": "Kan",
-        "tags": [
-            "Kanban"
-        ]
-    },
-    {
         "reference": "tootik",
         "name": "Tootik",
         "tags": [
             "ActivityPub / Fediverse",
             "Blog"
+        ]
+    },
+    {
+        "reference": "feeds-fun",
+        "name": "Feeds Fun",
+        "tags": [
+            "RSS"
         ]
     },
     {
@@ -5722,17 +5722,10 @@
         ]
     },
     {
-        "reference": "feeds-fun",
-        "name": "Feeds Fun",
+        "reference": "kan",
+        "name": "Kan",
         "tags": [
-            "RSS"
-        ]
-    },
-    {
-        "reference": "omnitools",
-        "name": "OmniTools",
-        "tags": [
-            "Tools"
+            "Kanban"
         ]
     },
     {
@@ -5747,6 +5740,13 @@
         "name": "Lowcoder",
         "tags": [
             "No-Code / Low-Code"
+        ]
+    },
+    {
+        "reference": "omnitools",
+        "name": "OmniTools",
+        "tags": [
+            "Tools"
         ]
     },
     {
@@ -5765,10 +5765,12 @@
         ]
     },
     {
-        "reference": "kener",
-        "name": "Kener",
+        "reference": "tianji",
+        "name": "Tianji",
         "tags": [
-            "Uptime"
+            "Server Management",
+            "Uptime",
+            "Web Analytics"
         ]
     },
     {
@@ -5780,12 +5782,10 @@
         ]
     },
     {
-        "reference": "tianji",
-        "name": "Tianji",
+        "reference": "kener",
+        "name": "Kener",
         "tags": [
-            "Server Management",
-            "Uptime",
-            "Web Analytics"
+            "Uptime"
         ]
     },
     {
@@ -5825,18 +5825,18 @@
         ]
     },
     {
+        "reference": "specifically-clementines",
+        "name": "Specifically Clementines",
+        "tags": [
+            "Grocery Lists"
+        ]
+    },
+    {
         "reference": "termix",
         "name": "Termix",
         "tags": [
             "SSH",
             "Terminal"
-        ]
-    },
-    {
-        "reference": "specifically-clementines",
-        "name": "Specifically Clementines",
-        "tags": [
-            "Grocery Lists"
         ]
     },
     {
@@ -5849,18 +5849,20 @@
         ]
     },
     {
-        "reference": "booklore",
-        "name": "BookLore",
-        "tags": [
-            "Books"
-        ]
-    },
-    {
         "reference": "rauthy",
         "name": "Rauthy",
         "tags": [
             "Authentication",
             "Identity Management"
+        ]
+    },
+    {
+        "reference": "flox",
+        "name": "Flox",
+        "tags": [
+            "Movies",
+            "Television",
+            "Tracking"
         ]
     },
     {
@@ -5878,27 +5880,11 @@
         ]
     },
     {
-        "reference": "flox",
-        "name": "Flox",
-        "tags": [
-            "Movies",
-            "Television",
-            "Tracking"
-        ]
-    },
-    {
         "reference": "vocard",
         "name": "Vocard",
         "tags": [
             "Music",
             "Music Streaming"
-        ]
-    },
-    {
-        "reference": "synapse",
-        "name": "Synapse",
-        "tags": [
-            "Messaging"
         ]
     },
     {
@@ -5917,6 +5903,13 @@
         ]
     },
     {
+        "reference": "synapse",
+        "name": "Synapse",
+        "tags": [
+            "Messaging"
+        ]
+    },
+    {
         "reference": "fitbit-health-dashboard",
         "name": "Fitbit Health Dashboard",
         "tags": [
@@ -5931,17 +5924,17 @@
         ]
     },
     {
-        "reference": "sink",
-        "name": "Sink",
-        "tags": [
-            "URL Shortener"
-        ]
-    },
-    {
         "reference": "auto-mcs",
         "name": "auto-mcs",
         "tags": [
             "Gaming"
+        ]
+    },
+    {
+        "reference": "sink",
+        "name": "Sink",
+        "tags": [
+            "URL Shortener"
         ]
     },
     {
@@ -5970,13 +5963,6 @@
         ]
     },
     {
-        "reference": "blinko",
-        "name": "Blinko",
-        "tags": [
-            "Note-Taking"
-        ]
-    },
-    {
         "reference": "nforwardauth",
         "name": "nforwardauth",
         "tags": [
@@ -5995,6 +5981,13 @@
         "name": "GameVault",
         "tags": [
             "Gaming"
+        ]
+    },
+    {
+        "reference": "blinko",
+        "name": "Blinko",
+        "tags": [
+            "Note-Taking"
         ]
     },
     {
@@ -6112,6 +6105,14 @@
         ]
     },
     {
+        "reference": "scratch-map",
+        "name": "Scratch Map",
+        "tags": [
+            "Maps",
+            "Tracking"
+        ]
+    },
+    {
         "reference": "homebox",
         "name": "Homebox",
         "tags": [
@@ -6128,14 +6129,6 @@
         ]
     },
     {
-        "reference": "scratch-map",
-        "name": "Scratch Map",
-        "tags": [
-            "Maps",
-            "Tracking"
-        ]
-    },
-    {
         "reference": "lubelogger",
         "name": "LubeLogger",
         "tags": [
@@ -6145,18 +6138,18 @@
         ]
     },
     {
+        "reference": "operational",
+        "name": "Operational",
+        "tags": [
+            "Tracking"
+        ]
+    },
+    {
         "reference": "redlib",
         "name": "Redlib",
         "tags": [
             "Front End",
             "Social News"
-        ]
-    },
-    {
-        "reference": "operational",
-        "name": "Operational",
-        "tags": [
-            "Tracking"
         ]
     },
     {
@@ -6195,13 +6188,6 @@
         ]
     },
     {
-        "reference": "calibre-web-automated",
-        "name": "Calibre-Web Automated",
-        "tags": [
-            "Books"
-        ]
-    },
-    {
         "reference": "medama",
         "name": "Medama",
         "tags": [
@@ -6209,10 +6195,10 @@
         ]
     },
     {
-        "reference": "immich-frame",
-        "name": "Immich-Frame",
+        "reference": "calibre-web-automated",
+        "name": "Calibre-Web Automated",
         "tags": [
-            "Photos"
+            "Books"
         ]
     },
     {
@@ -6220,6 +6206,13 @@
         "name": "RunsOn",
         "tags": [
             "Runners"
+        ]
+    },
+    {
+        "reference": "immich-frame",
+        "name": "Immich-Frame",
+        "tags": [
+            "Photos"
         ]
     },
     {
@@ -6276,18 +6269,18 @@
         ]
     },
     {
+        "reference": "invoiceshelf",
+        "name": "InvoiceShelf",
+        "tags": [
+            "Accounting"
+        ]
+    },
+    {
         "reference": "adventurelog",
         "name": "AdventureLog",
         "tags": [
             "Tracking",
             "Travel"
-        ]
-    },
-    {
-        "reference": "invoiceshelf",
-        "name": "InvoiceShelf",
-        "tags": [
-            "Accounting"
         ]
     },
     {
@@ -6314,17 +6307,17 @@
         ]
     },
     {
-        "reference": "uncloud",
-        "name": "Uncloud",
-        "tags": [
-            "Deployment"
-        ]
-    },
-    {
         "reference": "giftmanager",
         "name": "GiftManager",
         "tags": [
             "Wish Lists"
+        ]
+    },
+    {
+        "reference": "uncloud",
+        "name": "Uncloud",
+        "tags": [
+            "Deployment"
         ]
     },
     {
@@ -6373,18 +6366,18 @@
         ]
     },
     {
-        "reference": "pelican-panel",
-        "name": "Pelican Panel",
-        "tags": [
-            "Gaming"
-        ]
-    },
-    {
         "reference": "workout-tracker",
         "name": "Workout Tracker",
         "tags": [
             "Fitness",
             "Tracking"
+        ]
+    },
+    {
+        "reference": "pelican-panel",
+        "name": "Pelican Panel",
+        "tags": [
+            "Gaming"
         ]
     },
     {
@@ -6440,6 +6433,14 @@
         ]
     },
     {
+        "reference": "seelf",
+        "name": "seelf",
+        "tags": [
+            "Docker",
+            "Server Management"
+        ]
+    },
+    {
         "reference": "libredesk",
         "name": "Libredesk",
         "tags": [
@@ -6451,14 +6452,6 @@
         "name": "Nexterm",
         "tags": [
             "Remote Access",
-            "Server Management"
-        ]
-    },
-    {
-        "reference": "seelf",
-        "name": "seelf",
-        "tags": [
-            "Docker",
             "Server Management"
         ]
     },
@@ -6524,10 +6517,11 @@
         ]
     },
     {
-        "reference": "bentopdf",
-        "name": "BentoPDF",
+        "reference": "xrsh",
+        "name": "XRSH",
         "tags": [
-            "PDF"
+            "Development",
+            "Terminal"
         ]
     },
     {
@@ -6540,20 +6534,19 @@
         ]
     },
     {
-        "reference": "xrsh",
-        "name": "XRSH",
-        "tags": [
-            "Development",
-            "Terminal"
-        ]
-    },
-    {
         "reference": "aliasvault",
         "name": "AliasVault",
         "tags": [
             "Email",
             "Password Manager",
             "Privacy"
+        ]
+    },
+    {
+        "reference": "bentopdf",
+        "name": "BentoPDF",
+        "tags": [
+            "PDF"
         ]
     },
     {
@@ -6601,18 +6594,18 @@
         ]
     },
     {
+        "reference": "sparkybudget",
+        "name": "SparkyBudget",
+        "tags": [
+            "Budgeting"
+        ]
+    },
+    {
         "reference": "lidify",
         "name": "Lidify",
         "tags": [
             "*arr",
             "Music"
-        ]
-    },
-    {
-        "reference": "sparkybudget",
-        "name": "SparkyBudget",
-        "tags": [
-            "Budgeting"
         ]
     },
     {
@@ -6783,17 +6776,17 @@
         ]
     },
     {
-        "reference": "bknd",
-        "name": "bknd",
-        "tags": [
-            "Development"
-        ]
-    },
-    {
         "reference": "litlyx",
         "name": "Litlyx",
         "tags": [
             "Web Analytics"
+        ]
+    },
+    {
+        "reference": "bknd",
+        "name": "bknd",
+        "tags": [
+            "Development"
         ]
     },
     {
@@ -6837,19 +6830,19 @@
         ]
     },
     {
-        "reference": "paperless-ai",
-        "name": "Paperless AI",
-        "tags": [
-            "Artificial Intelligence",
-            "Document Management"
-        ]
-    },
-    {
         "reference": "pg-back-web",
         "name": "PG Back Web",
         "tags": [
             "Backups",
             "Database"
+        ]
+    },
+    {
+        "reference": "paperless-ai",
+        "name": "Paperless AI",
+        "tags": [
+            "Artificial Intelligence",
+            "Document Management"
         ]
     },
     {
@@ -6876,6 +6869,13 @@
         ]
     },
     {
+        "reference": "liwan",
+        "name": "Liwan",
+        "tags": [
+            "Web Analytics"
+        ]
+    },
+    {
         "reference": "pulse",
         "name": "Pulse",
         "tags": [
@@ -6884,40 +6884,10 @@
         ]
     },
     {
-        "reference": "liwan",
-        "name": "Liwan",
-        "tags": [
-            "Web Analytics"
-        ]
-    },
-    {
         "reference": "handbrake-web",
         "name": "HandBrake Web",
         "tags": [
             "File Conversion"
-        ]
-    },
-    {
-        "reference": "papra",
-        "name": "Papra",
-        "tags": [
-            "Document Management"
-        ]
-    },
-    {
-        "reference": "scriberr",
-        "name": "Scriberr",
-        "tags": [
-            "Artificial Intelligence",
-            "Transcription"
-        ]
-    },
-    {
-        "reference": "fladder",
-        "name": "Fladder",
-        "tags": [
-            "Front End",
-            "Media Streaming"
         ]
     },
     {
@@ -6929,10 +6899,41 @@
         ]
     },
     {
+        "reference": "fladder",
+        "name": "Fladder",
+        "tags": [
+            "Front End",
+            "Media Streaming"
+        ]
+    },
+    {
+        "reference": "scriberr",
+        "name": "Scriberr",
+        "tags": [
+            "Artificial Intelligence",
+            "Transcription"
+        ]
+    },
+    {
+        "reference": "papra",
+        "name": "Papra",
+        "tags": [
+            "Document Management"
+        ]
+    },
+    {
         "reference": "melody-auth",
         "name": "Melody Auth",
         "tags": [
             "Authentication"
+        ]
+    },
+    {
+        "reference": "airtrail",
+        "name": "AirTrail",
+        "tags": [
+            "Flights",
+            "Tracking"
         ]
     },
     {
@@ -6951,13 +6952,6 @@
         ]
     },
     {
-        "reference": "meme-search",
-        "name": "Meme Search",
-        "tags": [
-            "Search Engines"
-        ]
-    },
-    {
         "reference": "kontoj",
         "name": "Kontoj",
         "tags": [
@@ -6965,11 +6959,10 @@
         ]
     },
     {
-        "reference": "airtrail",
-        "name": "AirTrail",
+        "reference": "meme-search",
+        "name": "Meme Search",
         "tags": [
-            "Flights",
-            "Tracking"
+            "Search Engines"
         ]
     },
     {
@@ -7031,18 +7024,18 @@
         ]
     },
     {
-        "reference": "sure-finance",
-        "name": "Sure",
-        "tags": [
-            "Budgeting"
-        ]
-    },
-    {
         "reference": "mantrae",
         "name": "Mantrae",
         "tags": [
             "Front End",
             "Reverse Proxy"
+        ]
+    },
+    {
+        "reference": "sure-finance",
+        "name": "Sure",
+        "tags": [
+            "Budgeting"
         ]
     },
     {
@@ -7054,18 +7047,18 @@
         ]
     },
     {
-        "reference": "basic-memory",
-        "name": "Basic Memory",
-        "tags": [
-            "Artificial Intelligence"
-        ]
-    },
-    {
         "reference": "jetlog",
         "name": "Jetlog",
         "tags": [
             "Flights",
             "Tracking"
+        ]
+    },
+    {
+        "reference": "basic-memory",
+        "name": "Basic Memory",
+        "tags": [
+            "Artificial Intelligence"
         ]
     },
     {
@@ -7076,19 +7069,19 @@
         ]
     },
     {
-        "reference": "relaticle",
-        "name": "Relaticle",
-        "tags": [
-            "Marketing",
-            "Relationships"
-        ]
-    },
-    {
         "reference": "subatic",
         "name": "Subatic",
         "tags": [
             "Media Streaming",
             "Videos"
+        ]
+    },
+    {
+        "reference": "relaticle",
+        "name": "Relaticle",
+        "tags": [
+            "Marketing",
+            "Relationships"
         ]
     },
     {
@@ -7107,19 +7100,19 @@
         ]
     },
     {
-        "reference": "rss-danbrown",
-        "name": "RSS",
-        "tags": [
-            "Feed Reader",
-            "RSS"
-        ]
-    },
-    {
         "reference": "shelfmark",
         "name": "Shelfmark",
         "tags": [
             "Books",
             "Downloads"
+        ]
+    },
+    {
+        "reference": "rss-danbrown",
+        "name": "RSS",
+        "tags": [
+            "Feed Reader",
+            "RSS"
         ]
     },
     {
@@ -7131,19 +7124,19 @@
         ]
     },
     {
-        "reference": "arcane",
-        "name": "Arcane",
-        "tags": [
-            "Docker",
-            "Server Management"
-        ]
-    },
-    {
         "reference": "domain-locker",
         "name": "Domain Locker",
         "tags": [
             "Networking",
             "Tracking"
+        ]
+    },
+    {
+        "reference": "arcane",
+        "name": "Arcane",
+        "tags": [
+            "Docker",
+            "Server Management"
         ]
     },
     {
@@ -7155,6 +7148,13 @@
         ]
     },
     {
+        "reference": "imagor-studio",
+        "name": "Imagor Studio",
+        "tags": [
+            "Photos"
+        ]
+    },
+    {
         "reference": "immich-public-proxy",
         "name": "Immich Public Proxy",
         "tags": [
@@ -7163,10 +7163,11 @@
         ]
     },
     {
-        "reference": "imagor-studio",
-        "name": "Imagor Studio",
+        "reference": "suggestarr",
+        "name": "SuggestArr",
         "tags": [
-            "Photos"
+            "*arr",
+            "Requests"
         ]
     },
     {
@@ -7193,14 +7194,6 @@
         ]
     },
     {
-        "reference": "suggestarr",
-        "name": "SuggestArr",
-        "tags": [
-            "*arr",
-            "Requests"
-        ]
-    },
-    {
         "reference": "over-syncerr",
         "name": "Overr-Syncerr",
         "tags": [
@@ -7213,6 +7206,13 @@
         "tags": [
             "Document Management",
             "PDF"
+        ]
+    },
+    {
+        "reference": "drop",
+        "name": "Drop",
+        "tags": [
+            "Gaming"
         ]
     },
     {
@@ -7232,10 +7232,10 @@
         ]
     },
     {
-        "reference": "drop",
-        "name": "Drop",
+        "reference": "novus-mail",
+        "name": "Nortix Mail",
         "tags": [
-            "Gaming"
+            "Email"
         ]
     },
     {
@@ -7244,13 +7244,6 @@
         "tags": [
             "Fitness",
             "Statistics"
-        ]
-    },
-    {
-        "reference": "novus-mail",
-        "name": "Nortix Mail",
-        "tags": [
-            "Email"
         ]
     },
     {
@@ -7299,17 +7292,17 @@
         ]
     },
     {
-        "reference": "streamystats",
-        "name": "Streamystats",
-        "tags": [
-            "Statistics"
-        ]
-    },
-    {
         "reference": "rapidforge",
         "name": "RapidForge",
         "tags": [
             "Development"
+        ]
+    },
+    {
+        "reference": "streamystats",
+        "name": "Streamystats",
+        "tags": [
+            "Statistics"
         ]
     },
     {
@@ -7329,17 +7322,17 @@
         ]
     },
     {
-        "reference": "zerobyte",
-        "name": "Zerobyte",
-        "tags": [
-            "Backups"
-        ]
-    },
-    {
         "reference": "nutify",
         "name": "Nutify",
         "tags": [
             "Monitoring"
+        ]
+    },
+    {
+        "reference": "zerobyte",
+        "name": "Zerobyte",
+        "tags": [
+            "Backups"
         ]
     },
     {
@@ -7350,19 +7343,19 @@
         ]
     },
     {
-        "reference": "unregistry",
-        "name": "Unregistry",
-        "tags": [
-            "Container Registry",
-            "Docker"
-        ]
-    },
-    {
         "reference": "weddingshare",
         "name": "WeddingShare",
         "tags": [
             "File Sharing",
             "Photos"
+        ]
+    },
+    {
+        "reference": "unregistry",
+        "name": "Unregistry",
+        "tags": [
+            "Container Registry",
+            "Docker"
         ]
     },
     {
@@ -7423,18 +7416,18 @@
         ]
     },
     {
+        "reference": "ferron",
+        "name": "Ferron",
+        "tags": [
+            "Web Server"
+        ]
+    },
+    {
         "reference": "loggifly",
         "name": "LoggiFly",
         "tags": [
             "Docker",
             "Logs"
-        ]
-    },
-    {
-        "reference": "ferron",
-        "name": "Ferron",
-        "tags": [
-            "Web Server"
         ]
     },
     {
@@ -7523,17 +7516,17 @@
         ]
     },
     {
-        "reference": "lurker",
-        "name": "lurker",
-        "tags": [
-            "Front End"
-        ]
-    },
-    {
         "reference": "loops",
         "name": "Loops",
         "tags": [
             "Videos"
+        ]
+    },
+    {
+        "reference": "lurker",
+        "name": "lurker",
+        "tags": [
+            "Front End"
         ]
     },
     {
@@ -7574,19 +7567,19 @@
         ]
     },
     {
-        "reference": "notifuse",
-        "name": "Notifuse",
-        "tags": [
-            "Email",
-            "Newsletters"
-        ]
-    },
-    {
         "reference": "velld",
         "name": "Velld",
         "tags": [
             "Backups",
             "Database"
+        ]
+    },
+    {
+        "reference": "notifuse",
+        "name": "Notifuse",
+        "tags": [
+            "Email",
+            "Newsletters"
         ]
     },
     {
@@ -7657,17 +7650,17 @@
         ]
     },
     {
-        "reference": "expenseowl",
-        "name": "ExpenseOwl",
-        "tags": [
-            "Budgeting"
-        ]
-    },
-    {
         "reference": "perfice",
         "name": "Perfice",
         "tags": [
             "Tracking"
+        ]
+    },
+    {
+        "reference": "expenseowl",
+        "name": "ExpenseOwl",
+        "tags": [
+            "Budgeting"
         ]
     },
     {
@@ -7731,6 +7724,20 @@
         ]
     },
     {
+        "reference": "filerise",
+        "name": "FileRise",
+        "tags": [
+            "File Management"
+        ]
+    },
+    {
+        "reference": "vaultls",
+        "name": "VaulTLS",
+        "tags": [
+            "Security"
+        ]
+    },
+    {
         "reference": "compose-craft",
         "name": "Compose Craft",
         "tags": [
@@ -7738,10 +7745,19 @@
         ]
     },
     {
-        "reference": "filerise",
-        "name": "FileRise",
+        "reference": "wiredoor",
+        "name": "Wiredoor",
         "tags": [
-            "File Management"
+            "Remote Access",
+            "VPN"
+        ]
+    },
+    {
+        "reference": "nextbeats",
+        "name": "NextBeats",
+        "tags": [
+            "Music",
+            "Music Streaming"
         ]
     },
     {
@@ -7761,14 +7777,6 @@
         ]
     },
     {
-        "reference": "nextbeats",
-        "name": "NextBeats",
-        "tags": [
-            "Music",
-            "Music Streaming"
-        ]
-    },
-    {
         "reference": "ferrishare",
         "name": "FerriShare",
         "tags": [
@@ -7776,10 +7784,10 @@
         ]
     },
     {
-        "reference": "vaultls",
-        "name": "VaulTLS",
+        "reference": "taxhacker",
+        "name": "TaxHacker",
         "tags": [
-            "Security"
+            "Accounting"
         ]
     },
     {
@@ -7810,14 +7818,6 @@
         "tags": [
             "Docker",
             "Updates"
-        ]
-    },
-    {
-        "reference": "wiredoor",
-        "name": "Wiredoor",
-        "tags": [
-            "Remote Access",
-            "VPN"
         ]
     },
     {
@@ -7894,17 +7894,17 @@
         ]
     },
     {
-        "reference": "scraparr",
-        "name": "Scraparr",
-        "tags": [
-            "*arr"
-        ]
-    },
-    {
         "reference": "sprout-track",
         "name": "Sprout Track",
         "tags": [
             "Tracking"
+        ]
+    },
+    {
+        "reference": "scraparr",
+        "name": "Scraparr",
+        "tags": [
+            "*arr"
         ]
     },
     {
@@ -7938,25 +7938,11 @@
         ]
     },
     {
-        "reference": "taxhacker",
-        "name": "TaxHacker",
-        "tags": [
-            "Accounting"
-        ]
-    },
-    {
         "reference": "kite-kubernetes",
         "name": "Kite",
         "tags": [
             "Monitoring",
             "Server Management"
-        ]
-    },
-    {
-        "reference": "fluxer",
-        "name": "Fluxer",
-        "tags": [
-            "Messaging"
         ]
     },
     {
@@ -7975,10 +7961,10 @@
         ]
     },
     {
-        "reference": "dumbpad",
-        "name": "DumbPad",
+        "reference": "fluxer",
+        "name": "Fluxer",
         "tags": [
-            "Note-Taking"
+            "Messaging"
         ]
     },
     {
@@ -7986,6 +7972,13 @@
         "name": "Maker Management Platform",
         "tags": [
             "3D Printing"
+        ]
+    },
+    {
+        "reference": "dumbpad",
+        "name": "DumbPad",
+        "tags": [
+            "Note-Taking"
         ]
     },
     {
@@ -8123,17 +8116,17 @@
         ]
     },
     {
-        "reference": "portracker",
-        "name": "portracker",
-        "tags": [
-            "Server Management"
-        ]
-    },
-    {
         "reference": "posteria",
         "name": "Posteria",
         "tags": [
             "Media Assets"
+        ]
+    },
+    {
+        "reference": "portracker",
+        "name": "portracker",
+        "tags": [
+            "Server Management"
         ]
     },
     {
@@ -8142,6 +8135,14 @@
         "tags": [
             "Read Later",
             "Wiki"
+        ]
+    },
+    {
+        "reference": "open-archiver",
+        "name": "Open Archiver",
+        "tags": [
+            "Archive",
+            "Email"
         ]
     },
     {
@@ -8154,11 +8155,11 @@
         ]
     },
     {
-        "reference": "open-archiver",
-        "name": "Open Archiver",
+        "reference": "civitai-data-manager",
+        "name": "Civitai Data Manager",
         "tags": [
-            "Archive",
-            "Email"
+            "Artificial Intelligence",
+            "Backups"
         ]
     },
     {
@@ -8167,14 +8168,6 @@
         "tags": [
             "Development Environment",
             "Whiteboard"
-        ]
-    },
-    {
-        "reference": "civitai-data-manager",
-        "name": "Civitai Data Manager",
-        "tags": [
-            "Artificial Intelligence",
-            "Backups"
         ]
     },
     {
@@ -8256,18 +8249,18 @@
         ]
     },
     {
-        "reference": "ziit",
-        "name": "Ziit",
-        "tags": [
-            "Time Tracking"
-        ]
-    },
-    {
         "reference": "mkvpriority",
         "name": "MKVPriority",
         "tags": [
             "Media Streaming",
             "Subtitles"
+        ]
+    },
+    {
+        "reference": "ziit",
+        "name": "Ziit",
+        "tags": [
+            "Time Tracking"
         ]
     },
     {
@@ -8317,17 +8310,17 @@
         ]
     },
     {
-        "reference": "dockerizalo",
-        "name": "Dockerizalo",
-        "tags": [
-            "Deployment"
-        ]
-    },
-    {
         "reference": "invoicerr",
         "name": "Invoicerr",
         "tags": [
             "Accounting"
+        ]
+    },
+    {
+        "reference": "dockerizalo",
+        "name": "Dockerizalo",
+        "tags": [
+            "Deployment"
         ]
     },
     {
@@ -8339,19 +8332,19 @@
         ]
     },
     {
-        "reference": "kanba",
-        "name": "Kanba",
-        "tags": [
-            "Kanban",
-            "Project Management"
-        ]
-    },
-    {
         "reference": "eonvelope",
         "name": "Eonvelope",
         "tags": [
             "Archive",
             "Email"
+        ]
+    },
+    {
+        "reference": "kanba",
+        "name": "Kanba",
+        "tags": [
+            "Kanban",
+            "Project Management"
         ]
     },
     {
@@ -8465,18 +8458,18 @@
         ]
     },
     {
+        "reference": "ticky",
+        "name": "Ticky",
+        "tags": [
+            "Kanban"
+        ]
+    },
+    {
         "reference": "tracktor",
         "name": "Tracktor",
         "tags": [
             "Tracking",
             "Vehicles"
-        ]
-    },
-    {
-        "reference": "ticky",
-        "name": "Ticky",
-        "tags": [
-            "Kanban"
         ]
     },
     {
@@ -8488,17 +8481,17 @@
         ]
     },
     {
-        "reference": "chronoframe",
-        "name": "ChronoFrame",
-        "tags": [
-            "Photos"
-        ]
-    },
-    {
         "reference": "ignidash",
         "name": "Ignidash",
         "tags": [
             "Budgeting"
+        ]
+    },
+    {
+        "reference": "chronoframe",
+        "name": "ChronoFrame",
+        "tags": [
+            "Photos"
         ]
     },
     {
@@ -8517,18 +8510,18 @@
         ]
     },
     {
+        "reference": "poznote",
+        "name": "Poznote",
+        "tags": [
+            "Note-Taking"
+        ]
+    },
+    {
         "reference": "xyops",
         "name": "xyOps",
         "tags": [
             "Monitoring",
             "Workflow Automation"
-        ]
-    },
-    {
-        "reference": "poznote",
-        "name": "Poznote",
-        "tags": [
-            "Note-Taking"
         ]
     },
     {
@@ -8585,6 +8578,14 @@
         ]
     },
     {
+        "reference": "tugtainer",
+        "name": "Tugtainer",
+        "tags": [
+            "Backups",
+            "Docker"
+        ]
+    },
+    {
         "reference": "element-fm",
         "name": "ELEMENT.FM",
         "tags": [
@@ -8614,14 +8615,6 @@
         "tags": [
             "Docker",
             "Server Management"
-        ]
-    },
-    {
-        "reference": "tugtainer",
-        "name": "Tugtainer",
-        "tags": [
-            "Backups",
-            "Docker"
         ]
     },
     {
@@ -8679,6 +8672,13 @@
         ]
     },
     {
+        "reference": "amurex",
+        "name": "Amurex",
+        "tags": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
         "reference": "viniplay",
         "name": "ViniPlay",
         "tags": [
@@ -8686,10 +8686,10 @@
         ]
     },
     {
-        "reference": "amurex",
-        "name": "Amurex",
+        "reference": "habitsync",
+        "name": "HabitSync",
         "tags": [
-            "Artificial Intelligence"
+            "Habit Tracking"
         ]
     },
     {
@@ -8704,13 +8704,6 @@
         "name": "Secrover",
         "tags": [
             "Security"
-        ]
-    },
-    {
-        "reference": "habitsync",
-        "name": "HabitSync",
-        "tags": [
-            "Habit Tracking"
         ]
     },
     {
@@ -8759,18 +8752,18 @@
         ]
     },
     {
+        "reference": "sharkord",
+        "name": "Sharkord",
+        "tags": [
+            "Messaging"
+        ]
+    },
+    {
         "reference": "astroluma",
         "name": "Astroluma",
         "tags": [
             "Dashboard",
             "Tasks and To-Do Lists"
-        ]
-    },
-    {
-        "reference": "sharkord",
-        "name": "Sharkord",
-        "tags": [
-            "Messaging"
         ]
     },
     {
@@ -8820,11 +8813,11 @@
         ]
     },
     {
-        "reference": "tiny-tiny-rss",
-        "name": "Tiny Tiny RSS",
+        "reference": "octo-fiesta",
+        "name": "Octo-Fiesta",
         "tags": [
-            "Feed Reader",
-            "RSS"
+            "Music",
+            "Music Streaming"
         ]
     },
     {
@@ -8836,11 +8829,11 @@
         ]
     },
     {
-        "reference": "octo-fiesta",
-        "name": "Octo-Fiesta",
+        "reference": "tiny-tiny-rss",
+        "name": "Tiny Tiny RSS",
         "tags": [
-            "Music",
-            "Music Streaming"
+            "Feed Reader",
+            "RSS"
         ]
     },
     {
@@ -8860,18 +8853,18 @@
         ]
     },
     {
+        "reference": "moocup",
+        "name": "Moocup",
+        "tags": [
+            "Screenshots"
+        ]
+    },
+    {
         "reference": "journiv",
         "name": "Journiv",
         "tags": [
             "Note-Taking",
             "Tracking"
-        ]
-    },
-    {
-        "reference": "moocup",
-        "name": "Moocup",
-        "tags": [
-            "Screenshots"
         ]
     },
     {
@@ -8948,18 +8941,18 @@
         ]
     },
     {
+        "reference": "dashwise",
+        "name": "Dashwise",
+        "tags": [
+            "Dashboard"
+        ]
+    },
+    {
         "reference": "mydia",
         "name": "Mydia",
         "tags": [
             "*arr",
             "Media Management"
-        ]
-    },
-    {
-        "reference": "dashwise",
-        "name": "Dashwise",
-        "tags": [
-            "Dashboard"
         ]
     },
     {
@@ -9024,19 +9017,19 @@
         ]
     },
     {
-        "reference": "gmail-cleaner",
-        "name": "Gmail Cleaner",
-        "tags": [
-            "Email"
-        ]
-    },
-    {
         "reference": "gigapaste",
         "name": "GigaPaste",
         "tags": [
             "File Sharing",
             "Pastebin",
             "URL Shortener"
+        ]
+    },
+    {
+        "reference": "gmail-cleaner",
+        "name": "Gmail Cleaner",
+        "tags": [
+            "Email"
         ]
     },
     {
@@ -9205,6 +9198,13 @@
         ]
     },
     {
+        "reference": "figranium",
+        "name": "Figranium",
+        "tags": [
+            "Workflow Automation"
+        ]
+    },
+    {
         "reference": "aurral",
         "name": "Aurral",
         "tags": [
@@ -9213,17 +9213,17 @@
         ]
     },
     {
-        "reference": "figranium",
-        "name": "Figranium",
-        "tags": [
-            "Workflow Automation"
-        ]
-    },
-    {
         "reference": "dashlit",
         "name": "DashLit",
         "tags": [
             "Dashboard"
+        ]
+    },
+    {
+        "reference": "open-dronelog",
+        "name": "Open DroneLog",
+        "tags": [
+            "Tracking"
         ]
     },
     {
@@ -9235,9 +9235,10 @@
         ]
     },
     {
-        "reference": "open-dronelog",
-        "name": "Open DroneLog",
+        "reference": "hister",
+        "name": "Hister",
         "tags": [
+            "Search",
             "Tracking"
         ]
     },
@@ -9247,14 +9248,6 @@
         "tags": [
             "Development",
             "Web Analytics"
-        ]
-    },
-    {
-        "reference": "hister",
-        "name": "Hister",
-        "tags": [
-            "Search",
-            "Tracking"
         ]
     },
     {
