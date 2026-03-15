@@ -14,50 +14,10 @@
         ]
     },
     {
-        "reference": "baserow",
-        "name": "Baserow",
-        "tags": [
-            "Database",
-            "No-Code / Low-Code",
-            "Relational Database",
-            "Spreadsheet"
-        ]
-    },
-    {
         "reference": "n8n",
         "name": "n8n",
         "tags": [
             "Workflow Automation"
-        ]
-    },
-    {
-        "reference": "fusionauth",
-        "name": "FusionAuth",
-        "tags": [
-            "Authentication",
-            "Identity Management"
-        ]
-    },
-    {
-        "reference": "blue-iris",
-        "name": "Blue Iris",
-        "tags": [
-            "NVR",
-            "Video Surveillance"
-        ]
-    },
-    {
-        "reference": "easypanel",
-        "name": "Easypanel",
-        "tags": [
-            "Deployment"
-        ]
-    },
-    {
-        "reference": "cloudron",
-        "name": "Cloudron",
-        "tags": [
-            "Deployment"
         ]
     },
     {
@@ -69,47 +29,12 @@
         ]
     },
     {
-        "reference": "emby",
-        "name": "Emby",
-        "tags": [
-            "Media Streaming",
-            "Movies",
-            "Television"
-        ]
-    },
-    {
-        "reference": "roon",
-        "name": "Roon",
-        "tags": [
-            "Music",
-            "Music Streaming"
-        ]
-    },
-    {
         "reference": "home-assistant",
         "name": "Home Assistant",
         "tags": [
             "Home Automation",
             "Internet of Things",
             "Smart Home"
-        ]
-    },
-    {
-        "reference": "channels-dvr",
-        "name": "Channels DVR",
-        "tags": [
-            "Media Streaming",
-            "Television"
-        ]
-    },
-    {
-        "reference": "plex",
-        "name": "Plex",
-        "tags": [
-            "Media Streaming",
-            "Movies",
-            "Music",
-            "Television"
         ]
     },
     {
@@ -280,13 +205,6 @@
         "tags": [
             "Development",
             "Git"
-        ]
-    },
-    {
-        "reference": "postgresql",
-        "name": "PostgreSQL",
-        "tags": [
-            "Database"
         ]
     },
     {
@@ -556,15 +474,6 @@
         ]
     },
     {
-        "reference": "clickhouse",
-        "name": "ClickHouse",
-        "tags": [
-            "Analytics",
-            "Database",
-            "Data Cloud"
-        ]
-    },
-    {
         "reference": "mumble",
         "name": "Mumble",
         "tags": [
@@ -623,6 +532,14 @@
         "tags": [
             "Development",
             "Messaging"
+        ]
+    },
+    {
+        "reference": "fusionauth",
+        "name": "FusionAuth",
+        "tags": [
+            "Authentication",
+            "Identity Management"
         ]
     },
     {
@@ -1031,6 +948,21 @@
         ]
     },
     {
+        "reference": "blue-iris",
+        "name": "Blue Iris",
+        "tags": [
+            "NVR",
+            "Video Surveillance"
+        ]
+    },
+    {
+        "reference": "easypanel",
+        "name": "Easypanel",
+        "tags": [
+            "Deployment"
+        ]
+    },
+    {
         "reference": "zulip",
         "name": "Zulip",
         "tags": [
@@ -1203,6 +1135,13 @@
         ]
     },
     {
+        "reference": "cloudron",
+        "name": "Cloudron",
+        "tags": [
+            "Deployment"
+        ]
+    },
+    {
         "reference": "solidinvoice",
         "name": "SolidInvoice",
         "tags": [
@@ -1214,15 +1153,6 @@
         "name": "ddclient",
         "tags": [
             "DNS"
-        ]
-    },
-    {
-        "reference": "filerun",
-        "name": "FileRun",
-        "tags": [
-            "Cloud Storage",
-            "File Management",
-            "File Transfer and Sync"
         ]
     },
     {
@@ -1289,13 +1219,6 @@
         "name": "osTicket",
         "tags": [
             "Support / Ticketing"
-        ]
-    },
-    {
-        "reference": "mysql",
-        "name": "MySQL",
-        "tags": [
-            "Database"
         ]
     },
     {
@@ -1366,6 +1289,15 @@
         "tags": [
             "File Sharing",
             "File Transfer and Sync"
+        ]
+    },
+    {
+        "reference": "emby",
+        "name": "Emby",
+        "tags": [
+            "Media Streaming",
+            "Movies",
+            "Television"
         ]
     },
     {
@@ -1689,6 +1621,14 @@
     {
         "reference": "lightweight-music-server",
         "name": "Lightweight Music Server",
+        "tags": [
+            "Music",
+            "Music Streaming"
+        ]
+    },
+    {
+        "reference": "roon",
+        "name": "Roon",
         "tags": [
             "Music",
             "Music Streaming"
@@ -2100,6 +2040,24 @@
         "name": "Dovecot",
         "tags": [
             "Email"
+        ]
+    },
+    {
+        "reference": "channels-dvr",
+        "name": "Channels DVR",
+        "tags": [
+            "Media Streaming",
+            "Television"
+        ]
+    },
+    {
+        "reference": "plex",
+        "name": "Plex",
+        "tags": [
+            "Media Streaming",
+            "Movies",
+            "Music",
+            "Television"
         ]
     },
     {
@@ -3694,6 +3652,16 @@
         "tags": [
             "Automation",
             "Downloads"
+        ]
+    },
+    {
+        "reference": "baserow",
+        "name": "Baserow",
+        "tags": [
+            "Database",
+            "No-Code / Low-Code",
+            "Relational Database",
+            "Spreadsheet"
         ]
     },
     {
@@ -5869,6 +5837,15 @@
             "Movies",
             "Television",
             "Tracking"
+        ]
+    },
+    {
+        "reference": "filerun",
+        "name": "FileRun",
+        "tags": [
+            "Cloud Storage",
+            "File Management",
+            "File Transfer and Sync"
         ]
     },
     {
